@@ -1,0 +1,303 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    #wrapper{ width: 100%;}
+}
+/*Ipad d?c(768 x 1024)*/
+@media screen and (max-width: 768px){
+    #content2{ width: 100%; float: none;}
+    #content1{ width: 100%; float: none;}
+    #slide { width: 100%;height: 50%;float: none; padding-left: 0px;margin-bottom: 400px}
+    #logo1{width: 100%; float: none;}
+    #intro1{width: 0%; float: none;padding-left: 0px;}
+    #login{width: 100%; float: none;padding-left: 0px;}
+    #kiemtradonhang{
+        width: 100%;float: none;padding-left: 0px;
+    }
+    #dms{width: 100%;float: none;background-color: transparent}
+    #menu{width: 100%;float: none;background-color: transparent}
+    /*#menulist{width: 20%;float: none;height: 0%;opacity: 0}*/
+    #bestseller{width: 100%;
+        float: none;margin-top: -100px}
+    #books{width: 100%;
+        float: none;}
+    #aboutme{width: 100%;
+        float: none;}
+    #help{width: 100%;
+        float: none;}
+    #keepupwith{width: 100%;
+        float: none;}
+    #creditcard{width: 100%;
+        float: none;}
+    #video{width: 100%;
+        float: none;}
+    .slideshow div a img{height: 350px;width: 700px;padding-left: 30px;}
+
+    .anhsach:hover{
+
+    }
+    #goTop{width: 0%;float: none;height: 0%;opacity: 0}
+
+
+}
+/*Tablet nh?(480 x 640)*/
+@media screen and (max-width: 480px){
+    /*.slideshow div a img{height: 160px;width: 300px}*/
+    /*#bestseller{margin-top: -300px}*/
+
+}
+/*Iphone(480 x 640)*/
+@media all and (max-width: 320px){
+    #header1{
+     width: 100%; float: none;
+        ;
+        padding-right: 30px;
+        margin-top: 30px;
+    }
+    #header2{
+        width: 100%; float: none;background-color: transparent;box-shadow: 0px 0px 0px rgba(0,0,0,0); ;padding-right: 25px;}
+    #content1{
+        width: 100%; float: none; ;padding-right: 25px;
+    }
+    #content2{
+        width: 100%; float: none; ;padding-right: 25px;
+        margin-top: -250px;
+    }
+    #footer1{
+        width: 100%; float: none; ;padding-right: 25px;}
+    #footer2{
+        width: 100%; float: none; ;padding-right: 25px;
+    }
+
+    #bestseller{
+        border: none;
+    }
+    #search1{
+        width: 100%; float: none;;;padding-top: 20px;margin-right: 20px;
+    }
+    #cart1{
+        width: 120%; float: none;margin-left: -00px;margin-right: 00px;;
+    }
+    #kiemtradonhang{
+        width: 93%; float: none;;;padding-top: 20px;margin-right: 20px;margin-left: 16px;
+    }
+
+    #MenuBar1 li{
+        width: 40%;float: none;
+        border: none;
+        border-bottom: none; !important;
+    }
+    #MenuBar1{
+        border: none;
+    }
+    ul{
+        border: none;
+    }
+    li{
+        border: none;
+    }
+    a{
+        border: none;
+    }
+    div{
+        border: none;
+    }
+    hr{
+        width: 0%;
+    }
+    #menulist ul li ul li{
+        border: none;
+    }
+    body{
+        border: none;
+    }
+    .anhsach{
+        width: 50%;
+        float: none;
+    }
+    .noidungsach{
+        width: 50%;
+        float: none;
+    }
+    #menulist{
+        width: 0%; !important;
+        max-width: 0px; !important;
+        margin-left: -20px;padding-right: 50px;margin-bottom: 30px; !important;
+        background-color: transparent; !important;
+        border: none; !important;
+        border-radius: 0px; !important;
+        z-index: 1; !important;
+        box-shadow: none; !important;
+        height: 0px; !important;
+        border: transparent; !important;
+        color: transparent;!important;
+    }
+    .container-fluid{
+        width: 100% !important;
+
+    }
+    .nav{
+        width: 100%;
+    }
+    .navbar-default{
+        width: 100%;
+        margin-left: -20px !important;
+    }
+    #dms11{width: 100%;float: none;background-color: transparent}
+    #menu11{width: 100%;float: none;background-color: transparent}
+    #menu{margin-top: 10px}
+
+
+    #dropdownMenu1{
+       float: none;
+        margin-top: 30px;
+        margin-left: -33px;
+
+    }
+
+    .drrr li ul li{
+        margin-left: -90px;
+        width: 80% !important;
+        padding-right: 30px;
+
+    }
+
+    .drrr li{
+        margin-left: -50px;
+    }
+
+
+    .aaa ul li{
+        width: 00%;max-width: 10px;border: none ;
+    }
+    .MenuBarVertical {
+        border: none;
+    }
+    #slide{
+        width: 100%;float: none;
+    }
+    script{
+        width: 0%;max-width: 0px;float: none;
+    }
+    #goTop{
+        width: 0%;margin-right: 100px;float: none;
+    }
+
+    .fb-comments{
+        data-width: 10px; !important;
+        float: none;
+        padding-right: 1000px;
+        max-width: 50px;
+        width: 50px;
+    }
+    #facebook2{
+        data-width: 10px; !important;
+        float: none;
+        padding-right: 1000px;
+        max-width: 50px;
+        width: 50px;
+    }
+    #ratebox img{
+        width: 250px;
+    }
+    .container{
+        width: 90%;
+        padding-right: 30px;
+    }
+    .textbox{
+        width: 100px;
+        max-width: 100px;
+        padding-right: 160px;
+        margin-left: -20px;
+
+    }
+    #likebox-wrapper * {
+        width: 100% !important;
+    }
+
+    .fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+    .fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+
+    .stars{
+        width: 100%!important;
+    }
+
+    #table-products{
+        width: 80%; float: none;margin-left: -30px;
+    }
+    #table-products thead tr th{
+        font-size: x-small;
+    }
+    #checkout{
+        width: 100%;float: none;
+    }
+    #button-clear{
+        width: 100%;float: none;
+    }
+
+    #dangkyform{
+        width: 100%; float: none;
+        margin-left: -65px;
+    }
+    #dk{
+        margin-left: 45px !important;
+    }
+    #csdt1{
+        width: 100%; float: none;
+    }
+    #csdt2{
+        width: 100%; float: none;
+    }
+    #csdt3{
+        width: 100%; float: none;
+    }
+    #csdt4{
+        width: 100%; float: none;
+    }
+    #csdt5{
+        width: 100%; float: none;
+    }
+    #csdt6{
+        width: 100%; float: none;
+    }
+    #csdt7{
+        width: 100%; float: none;
+    }
+    #csdt8{
+        width: 100%; float: none;
+    }
+    #csdt9{
+        width: 100%; float: none;
+    }
+    #csdt10{
+        width: 100%; float: none;
+    }
+    #csdt11{
+        width: 100%; float: none;
+    }
+    #csdt12{
+        width: 100%; float: none;
+    }
+    #csdt13{
+        width: 100%; float: none;
+    }
+    #csdt14{
+        width: 100%; float: none;
+    }
+    #csdt15{
+        width: 100%; float: none;
+    }
+    #csdt16{
+        width: 100%; float: none;
+    }
+    #csdt17{
+        width: 100%; float: none;
+    }
+    #thuthu1 img{
+        width: 100%; float: none;
+    }
+
+}
+/*Smart phone nh?*/
+@media screen and (max-width: 240px){
+
+}

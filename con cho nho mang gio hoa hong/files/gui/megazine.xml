@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<!-- Default style informations. These get copied into plugins' namespaces. -->
+	<style>
+	<![CDATA[
+	/* Default style for buttons. This is used throughout the engine. */
+	button.common, togglebutton.common, togglebutton.common button {
+		width: 24;
+		height: 24;
+		filter: dropshadow(2,45,0x000000,1,3,3,0.5,2);
+	}
+	togglebutton.common > button { filter: none; }
+	button.common box, togglebutton.common button box {
+		/* Using outer size - 2 to allow a 1px margin, which is used on mouseover (see below) */
+		width: 22;
+		height: 22;
+		x: 1;
+		y: 1;
+	}
+	button.common > box.over, togglebutton.common > button box.over { filter: glow(0xFFFFFF,1,3,3,1,2); }
+	button.common > box.down, togglebutton.common > button box.down {
+		filter: glow(0xFFFFFF,1,3,3,1,2);
+		/* Using margin on mouseover (moving image one pixel down and to the right) */
+		x: 2;
+		y: 2;
+	}
+	/* Common container element style */
+	.container {
+		background: color(0x7F000000);
+		filter: dropshadow(2,45,0x000000,1,3,3,0.5,2);
+	}
+	/* Common text styles */
+	text.label {
+		color: 0xFFFFFF;
+		font: Verdana;
+		size: 9;
+	}
+	text.info {
+		color: 0xffffff;
+		font: Verdana;
+		size: 11;
+	}
+	
+	/*Style for left box title:toc, searchbox, bookmarkbox, thumbnails, window.title*/
+	text.title {
+		bold: true;
+		color:0xFFFFFF;
+		font:Verdana;
+		size:12;
+	}
+	
+	text.content {
+		color:0xFFFFFF;
+		font:Verdana;
+		size:12;
+	}
+	
+	box.input {
+		background: gradient(linear-vertical,0xCCCCCC,0x999999);
+		filter: dropshadow(2,45,0x000000,1,3,3,0.5,2, true);
+	}
+	box.input > text {
+		anchors: 0,0,pw,ph;
+		selectable: true;
+		input: true;
+		color: #31374B;
+		font: Verdana;
+		bold: false;
+		size: 12;
+		filter: dropshadow(1,45,0x000000,1,3,3,0.5,2);
+	}
+	/* Common progress bar style */
+	progressbar.common {
+		width: 200;
+		height: 20;
+		localizeid: LNG_LOADING;
+	}
+	progressbar.common > box {
+		background: gradient(linear-vertical,0xCCCCCC,0x999999);
+		width: 190;
+		height: 10;
+		x: 5;
+		y: 5;
+	}
+	progressbar.common > text {
+		align: center;
+		width: 190;
+		height: 16;
+		x: 5;
+		y: 2;
+	}
+	
+	/* style for left box */
+	.input{
+		background: image(files/assets/skin/input.png);
+		scale9grid:20,20,21,21
+	}
+		
+	box.innertop {
+		background: image(files/assets/skin/bar_top_box.png);
+		scale9grid:8,10,9,11
+	}
+	
+	button.btn_up > box {background: image(files/assets/skin/btnup_up.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_up > box.down { background: image(files/assets/skin/btnup_down.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_up > box.over { background: image(files/assets/skin/btnup_hot.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+	
+	button.btn_down > box {background: image(files/assets/skin/btndown_up.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_down > box.down { background: image(files/assets/ski/btndown_down.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_down > box.over { background: image(files/assets/skin/btndown_hot.png); width:24; height:14; anchors:(pw-w)/2,(ph-h)/2;}
+
+	button.btn_close > box {background: image(files/assets/skin/window/close_up.png); width:24; height:24;}
+	button.btn_close > box.down { background: image(files/assets/skin/window/close_down.png); width:24; height:24;}
+	button.btn_close > box.over { background: image(files/assets/skin/window/close_hot.png); width:24; height:24;}
+	
+	button.btn_common > box {background: image(files/assets/skin/window/btn_up.png); anchors:0,0,pw,ph; scale9grid:10,10,11,11;}
+	button.btn_common > box.down { background: image(files/assets/skin/window/btn_down.png); anchors:0,0,pw,ph; scale9grid:10,10,11,11;}
+	button.btn_common > box.over { background: image(files/assets/skin/window/btn_hot.png); anchors:0,0,pw,ph; scale9grid:10,10,11,11;}
+	
+	/* end */
+	
+	/* Vidpreview, used by the vid element, if a thumbnail is set. */
+	box.vidpreview button, box.vidpreview button > box {
+		width: 50;
+		height: 30;
+	}
+	box.vidpreview button > box {
+		background: image(files/gui/engine/vidpreview.png);
+	}
+	box.vidpreview button > box.over, box.vidpreview button > box.down {
+		filter: glow(0xFFFFFF,1,3,3,1,2);
+	}
+	box.vidpreview button > box.down {
+		x: 2;
+		y: 2;
+	}
+	/* Common dragrect style for scrollpanecontrol elements. */
+	scrollpanecontrol box.dragrect {
+		background: color(0x7f0000ff);
+		mouseenabled: true;
+	}
+	scrollpanecontrol box.dragrect > box {
+		anchors: 1,1,pw-1,ph-1;
+		background: color(0x5fffffff);
+	}
+	
+	box.innerbackground {
+		background: image(files/assets/skin/front_bg.png);
+	}
+	
+	scrollbar > button > box { background: image(files/assets/skin/btnscroll_up.png); width: 12; height: 13; }
+	scrollbar > button > box.over { background: image(files/assets/skin/btnscroll_hot.png);  width:12; height:13;}
+	scrollbar > button > box.down { background: image(files/assets/skin/btnscroll_down.png);  width:12; height:13;}
+		
+	button.next_big > box { background: image(files/assets/skin/buttons/next_up.png);  width:34; height:35;}
+	button.next_big > box.over { background: image(files/assets/skin/buttons/next_hot.png);  width:34; height:35;}
+	button.next_big > box.down { background: image(files/assets/skin/buttons/next_down.png);  width:34; height:35;}		
+	
+	button.previous_big > box { background: image(files/assets/skin/buttons/previous_up.png);  width:34; height:35;}
+	button.previous_big > box.over { background: image(files/assets/skin/buttons/previous_hot.png);  width:34; height:35;}
+	button.previous_big > box.down { background: image(files/assets/skin/buttons/previous_down.png); width:34; height:35;}	
+	
+	button.firstpage_big > box { background: image(files/assets/skin/buttons/firstpage_up.png);  width:20; height:20;}
+	button.firstpage_big > box.over { background: image(files/assets/skin/buttons/firstpage_hot.png);  width:20; height:20;}
+	button.firstpage_big > box.down { background: image(files/assets/skin/buttons/firstpage_down.png);  width:20; height:20;}	
+	
+	button.lastpage_big > box { background: image(files/assets/skin/buttons/lastpage_up.png);  width:20; height:20;}
+	button.lastpage_big > box.over { background: image(files/assets/skin/buttons/lastpage_hot.png);  width:20; height:20;}
+	button.lastpage_big > box.down { background: image(files/assets/skin/buttons/lastpage_down.png);  width:20; height:20;}	
+	
+		
+		
+	]]>
+	</style>
+	
+	
+	<!--
+		Container for pages, used for scrolling implementation when zooming in and
+		determining the fill rate of the liquid scaling (e.g. to keep pages away from plugin
+		elements like the navigation bar).
+		In the case of the pagecontainer being a scrollpane the viewport will be used as
+		the actual container.
+		Otherwise the actual page container will be created inside the pagecontainer and
+		will always appear centered inside this container.
+		
+		In the essence: you probably don't want to mess with this, except for changing
+		mousemode and maybe add scrollbars.
+		
+		Note that the setting in the option pane references this object to toggle the
+		mousemode, which is why it has a name. Make sure to adjust the options gui
+		accordingly when changing this, so as to not confuse users.
+	-->
+	<scrollpane id="pagecontainer" anchors="50,70,pw-50,ph-75" minwidth="0"
+		name="page_scrollpane" mousemode="mouse_move" clipchildren="true">
+		<box  anchors="15,15,pw-15,ph-15" clipchildren="false">
+			<box name="$viewport$" width="pagew*2" height="pageh" clipchildren="false"/>
+		</box>
+		<button onclick="megazine.gotoPreviousPage()" anchors="5,(ph-h)/2" style="previous_big" width="34" height="35"/>
+		<button onclick="megazine.gotoNextPage()" anchors="pw-35,(ph-h)/2" style="next_big" width="34" height="35"/>
+		<button onclick="megazine.gotoFirstPage()" anchors="5,(ph-h)/2+50" style="firstpage_big" width="20" height="20"/>
+		<button onclick="megazine.gotoLastPage()" anchors="pw-30,(ph-h)/2+50" style="lastpage_big" width="20" height="20"/>
+	</scrollpane>
+	
+	<!-- megazine background --> 
+	<box id="innerbackground"  anchors="50,70,pw-50,ph-75"  minwidth="350" style="common innerbackground" backgroundrepeat="false"/>
+
+
+	<scrollpane id="zoomcontainer" anchors="50,70,pw-50,ph-75" minwidth="350" mousemode="mouse_drag" clipchildren="true">
+		<box name="$viewport$" clipchildren="true" />
+		<scrollbar name="$scroll_y$" orientation="vertical" anchors="pw-15,0,pw,ph" background="gradient(linear-vertical,0x666666,0x4d4d4d)" alpha_out="0.4" alpha="0.8" alpha_fadetime="0.2">
+			<button name="$scroll_handle$" width="15" height="15"/>
+		</scrollbar>
+	</scrollpane>
+
+	
+	<!-- Default cursor image. -->
+	<!-- <box id="cur_default" background="image(...)" width="24" height="24"/> -->
+	
+	<!-- Dragging cursor image. -->
+	<box id="cur_dragable" background="image(files/gui/engine/cur_dragable.png)" width="24" height="24" x="-11" y="-14"/>
+	<box id="cur_dragging" background="image(files/gui/engine/cur_dragging.png)" width="24" height="24" x="-11" y="-14"/>
+	
+	<!-- Cursor image used to hint possibility to turn left. -->
+	<box id="cur_turn_left" background="image(files/gui/engine/cur_turn_left.png)" width="24" height="24" x="-15" y="-10"/>
+	
+	<!-- Cursor image used to hint possibility to turn right. -->
+	<box id="cur_turn_right" background="image(files/gui/engine/cur_turn_right.png)" width="24" height="24" x="-2" y="-10"/>
+	
+	<!-- Default loading graphic used for all elements not specifying their own. -->
+	<box id="loading" background="image(files/gui/engine/loading.swf)" width="30" height="30"/>
+	
+	<!-- Loading graphic for more advanced elements, e.g. the img element. -->
+	<progressbar id="loading_bar" style="container common">
+		<box name="$bar$"/>
+		<text name="$text$" style="label" rasterize="true"/>
+	</progressbar>
+	
+	<!-- Preview overlay for the vid element when @preview is set -->
+	<box id="vidpreview" style="vidpreview">
+		<box style="container" anchors="0,0,pw,ph">
+			<button clipchildren="false" anchors="(pw-w)/2,(ph-h)/2"/> 
+		</box>
+	</box>
+	
+	<!-- Tooltip design -->
+	<box id="tooltip" resize="true" background="color(0x33ffffff)" padding="1,1,1,1"
+		filter="dropshadow(2,45,0x000000,1,3,3,0.5,2)">
+		<!--
+			The text box with the name 'tooltip' will be used to display the actual
+			tooltip text. That's why it should be autosizing, to allow tooltips of
+			arbitrary length.
+		-->
+		<text name="tooltip" maxwidth="200" color="0xffffff" autosize="left"
+			multiline="true" wordwrap="true" background="color(0x7f000000)"
+			font="Verdana, Helvetica, Arial, _sans" size="11" align="justify">
+			
+			<!--
+				These must be child nodes of the text node, so as to not break the
+				autosizing of the containing box.
+				
+				They can be used to specify a custom look depending on how the tooltip
+				is oriented (i.e. above or below the mouse and left or right to the mouse).
+				
+				Normally the cursor is below and right to the mouse, but if there is not
+				enough space to fully display the contents that way, it will be flipped in
+				either the vertical or horizontal direction (depending on which screen
+				edge it overlaps). The names relate to the position of the cursor relative
+				to the mouse, i.e.
+					if_top_left      -> mouse is to left and above of the cursor, default case.
+					if_top_right     -> mouse is to the right and above the cursor, tooltip
+										would leave the screen to the right, otherwise.
+					if_bottom_left   -> cursor is to the left and below the tooltip, tooltip
+										would leave the screen to the bottom, otherwise.
+					if_bottom_right  -> mouse is to the right and below the tooltip, cases
+										for if_bottom_left and if_bottom_right happen simultaneously.
+				
+				Only the object with the name of the currently applying case will be visible,
+				the other ones will be made invisible.
+			-->
+			<box name="if_top_left" background="color(0x7fffffff)" width="3" height="3"/>
+			<box name="if_top_right" background="color(0x7fffffff)" width="3" height="3" anchors="pw-w"/>
+			<box name="if_bottom_left" background="color(0x7fffffff)" width="3" height="3" anchors="0,ph-h"/>
+			<box name="if_bottom_right" background="color(0x7fffffff)" width="3" height="3" anchors="pw-w,ph-h"/>
+			
+		</text>
+	</box>
+	
+	<!-- only show when it is mini mode -->
+	<button anchors="(pw-w)/2,(ph-h)/2" width="220" height="50" visible="true" background="image(files/assets/skin/fullscreen_mini.png)" id="fullscreen_mini" name="fullscreen_mini" mouseenabled="true">
+		<text name="$text$" anchors="0,10,pw" align="center" rasterize="true" style="fullscreenmode"  value="localize(LNG_VIEWFULLSCREEN, Click to view in fullscreen)"/>	
+	</button>
+</asul>

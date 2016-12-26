@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flipbookmaker version="4.3.4" IsQuick="true" QuickFile="C:\Users\Minh\Downloads\Documents\Hat giong tam hon 8.pdf" ProjectName="" DefaultName="Hat giong tam hon 8" SearchOrder="ltr" Google="" UseMiniMode="true" UsePSW="false" MiniWidth="400" MiniHeight="300" PSW="" StartPage="0" UseFlipSound="true" UseBackSound="false" UseSingleSound="false" BackSoundPath="" IsRight2Left="false" IsFastene="false" IsHardCover="0" IsHardPage="0" IsAnimate="true" IsCenterBook="true" IsLandScape="0" IsOpenBook="1" DragArea="top,middle,bottom" FlipSpeed="0.25" PageThick="0.1" SpineColor="13421772" Curvature="-0.5" PageBackColor="13421772" PageTranColor="0" FoldLine="0.5" Loaded="22" ZoomStep="0.25, 0.5, 1, 2, 4, 8" UseReflection="false" RefTransparent="75" RefOffset="0" IsAutoPlay="false" IsRepeat="false" DurationPlay="3" Preloader="bookcase" LoadText="" PowerBy="" NavigationStyle="" ButtonStyle="" ShowCover="true" ShowPreNext="true" ShowPlayStop="true" ShowScreen="true" ShowToc="true" ShowZoom="true" ShowBookmark="true" ShowDownload="true" DownloadUrl="" ShowText="true" ShowSlider="false" ShowShare="true" ShowPrint="true" ShowZoomBar="true" ShowSearch="true" ShowSearchBox="true" ShowMusic="true" ShowThumbnail="true" ShowExit="true" ShowBookCase="true" ButtonScale="0" IntroMovie="" IntroEffect="" Scene="" ShowAbout="true" ShowDraw="true" ShowLang="true" UseGradient="true" Edge="1" EdgeColor="13421772" TemplateGroup="float" TemplateName="wood" ExeTitle="" HtmlTitle="" HtmlKeywords="" HtmlDescription="" HtmlScript="" PageWidth="503" PageHeight="800" CoverWidth="503" CoverHeight="800" Langs="en" LangHints="English" BookLangs="en,jp,fr,de,ar">
+  <book title="Hat giong tam hon 8" plugins="navigationbar, keyboardnavigation, links, password, pdflinks, anchors, index, titles, search, gestures, draw, tuio, slideshow,javascript,swfaddress,print,thumbnails,bookmarks,select,musicplayers, toc, share, about, bookcase" pagewidth="503" pageheight="800" searchindex="files/search_index/en.txt" stiffskew="1" guipath="files/gui/" asulextension="xml" lang="en,jp,fr,de,ar" langpath="files/langs/" flagpath="files/flags/" pluginpath="files/plugins/" priorities="vid(20); snd(15); area(5); nav(5); txt(5); gal(30)" sndpath="files/snd/" password="" pwstart="0" thumbloadtext="Loading" zoommaxscale="2" zoomminscale="0.1" zoomsnap="0.25, 0.5, 1, 2, 4, 8" zoomstep="" slidestart="false" slidedelay="3" sliderepeat="false" toc="files/data/toc.xml" bookcase="files/data/bookcase.xml" download="" minimode="true" miniwidth="400" miniheight="300" layout="files/data/layout.xml" buttoncfg="files/data/buttoncfg.xml" about="files/data/about.xml" abc="bdad">
+    <background>
+      <box name="" anchors="0,0,ph,pw"/>
+    </background>
+    <bookmarks/>
+    <chapter pagewidth="503" pageheight="800">
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_1_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="507" height="800" widthorg="368" heightorg="581" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_2_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="503" pageheight="800">
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_3_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_4_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_5_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_6_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_7_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_8_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_9_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_10_{8680A46D-F9E1-4CAB-A03E-F1F782C00C61}_en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_11__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_12__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_13__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_14__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_15__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_16__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_17__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_18__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_19__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_20__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_21__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_22__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_23__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_24__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_25__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_26__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_27__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_28__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_29__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_30__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_31__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_32__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_33__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_34__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_35__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_36__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_37__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_38__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_39__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_40__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_41__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_42__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_43__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_44__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_45__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_46__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_47__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_48__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_49__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_50__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_51__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_52__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_53__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_54__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_55__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_56__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_57__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_58__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_59__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_60__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_61__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_62__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_63__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_64__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_65__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_66__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_67__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_68__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_69__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_70__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_71__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_72__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_73__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_74__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_75__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_76__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_77__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_78__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_79__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_80__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_81__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_82__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_83__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_84__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_85__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_86__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_87__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_88__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_89__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_90__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_91__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_92__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_93__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_94__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_95__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_96__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_97__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_98__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_99__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_100__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_101__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_102__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_103__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_104__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_105__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_106__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_107__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_108__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_109__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_110__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_111__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_112__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_113__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_114__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_115__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_116__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_117__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_118__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_119__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_120__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_121__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_122__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_123__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_124__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_125__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_126__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_127__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_128__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_129__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_130__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_131__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_132__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_133__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_134__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_135__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_136__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_137__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_138__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_139__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_140__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_141__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_142__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_143__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_144__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_145__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_146__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_147__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_148__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_149__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_150__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_151__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_152__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_153__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_154__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_155__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_156__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_157__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_158__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_159__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_160__en.swf</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="503" pageheight="800">
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_161__en.swf</src>
+        </img>
+      </page>
+      <page bgcolor="13421772" stiffskew="1">
+        <img width="504" height="800" widthorg="371" heightorg="589" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_batch_{0E654279-E57C-48AC-8899-AF837D91C43F}\files\pages\en\high\Hat giong tam hon 8_162__en.swf</src>
+        </img>
+      </page>
+    </chapter>
+  </book>
+  <MyFont Name="Verdana" Color="16777215" Size="12" Style="1" Text="Hat giong tam hon 8" Url=""/>
+  <Backgd UseBackImg="true" BackColor1="0" BackColor2="10066329" ColorStyle="radial" ImagePath="files/assets/skin/bg.png" ImageStyle="Stretch" TransParent="10" AType="0"/>
+  <Logo Name="" Color="0" Size="0" Style="0" Text="" Url="" UseLogo="false" UseImage="false" ImagePath="" ImageTrans="0" BackColor="0" Width="100" Height="100" Target="_blank"/>
+  <FontObj Name="" Color="0" Size="0" Style="0"/>
+  <Bookmarks/>
+  <Playlist skin="" miniskin="" startmini="false" onlywhenactive="false" playmode="1" loopmode="1"/>
+  <BookCase/>
+</flipbookmaker>

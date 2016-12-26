@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_FIRST_PAGE" label="First Page Button">erste Seite</langstring>
+	<langstring name="LNG_LAST_PAGE" label="Last Page Button">Letzte Seite</langstring>
+	<langstring name="LNG_PREV_PAGE" label="Previous Page Button">Vorherige Seite</langstring>
+	<langstring name="LNG_NEXT_PAGE" label="Next Page Button">Nächste Seite</langstring>
+	<langstring name="LNG_GOTO_PAGE" label="Page Number">Gehe zu Seite $1</langstring>
+	<langstring name="LNG_GOTO_DIALOG_TIP" label="Goto Page tip">Bitte geben Sie die Nummer der Seite, um zu springen, drücken Sie die Eingabetaste.</langstring>
+	<langstring name="LNG_FULLSCREEN" label="Fullscreen Button">Aktivieren Sie den Vollbildmodus (Tastenkombinationen möglicherweise nicht im Vollbildmodus arbeiten)</langstring>
+	<langstring name="LNG_RESTORE" label="Exit fullscreen Button">Beenden Sie den Vollbildmodus</langstring>
+	<langstring name="LNG_MUTE" label="Mute Button">stumm</langstring>
+	<langstring name="LNG_UNMUTE" label="Unmute Button">Ton ein</langstring>
+	<langstring name="LNG_ZOOM_IN" label="ZoomIn Button">vergrößern</langstring>
+	<langstring name="LNG_ZOOM_OUT" label="ZoomOut Button">schrumpfen</langstring>
+	<langstring name="LNG_ROTATE_RIGHT" label="Rotate clockwise Button">Drehen im Uhrzeigersinn Buch</langstring>
+	<langstring name="LNG_ROTATE_LEFT" label="counterclockwise Button">Drehen gegen den Uhrzeigersinn Buch</langstring>
+	<langstring name="LNG_THUMBNAIL" label="Thumbnails Button">Daumennagel</langstring>
+	<langstring name="LNG_BOOKMARKS" label="Bookmarks Button">Lesezeichen</langstring>
+	<langstring name="LNG_PRINT" label="Print Button">drucken</langstring>
+	<langstring name="LNG_DRAW" label="Draw Button">ziehen</langstring>
+	<langstring name="LNG_TEXT_SELECT" label="Text Selecting Button">Text auswählen</langstring>
+	<langstring name="LNG_TOC" label="TOC Button">Inhalts</langstring>
+	<langstring name="LNG_SHARE" label="Share Button">Aktie</langstring>
+	<langstring name="LNG_SEARCH" label="Search Button">Suche</langstring>
+	<langstring name="LNG_DOWNLOAD" label="Download Button">Herunterladen</langstring>
+	<langstring name="LNG_ABOUT" label="About Button">über</langstring>
+	<langstring name="LNG_Exit" label="Exit Button">Beenden</langstring>
+	<langstring name="LNG_BOOKCASE" label="Download Button">Bücherregal</langstring>
+	<langstring name="LAN_PLAY" label="About Button">Wiedergabe</langstring>
+	<langstring name="LAN_STOP" label="Exit Button">Stopp</langstring>
+</lang>

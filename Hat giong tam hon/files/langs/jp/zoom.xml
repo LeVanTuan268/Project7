@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_ZOOM_OUT" label="Zoom Out">ズームアウトする</langstring>
+	<langstring name="LNG_ZOOM_SLIDE" label="Zoom slider tip">ズームレベルを制御するためのスライド</langstring>
+	<langstring name="LNG_ZOOM_IN" label="Zoom in">ズームイン</langstring>
+</lang>

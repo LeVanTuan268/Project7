@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideB { width: 850px;height:225px; clear:both; overflow:hidden;}
+#slideB img {border: 1px solid #F2F2F2;}
+#inslideB {float: left;width: 1000%;}
+#inslideB1 {float: left;}
+#inslideB1 a{
+    margin-right: 20px;
+}

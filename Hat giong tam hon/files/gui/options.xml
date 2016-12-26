@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	button.options > box { background: image(files/gui/options/btn_options.png); }
+	button.close > box { background: image(files/gui/options/btn_ok.png); }
+	togglebutton > button > box { background: image(files/gui/options/checkbox_0.png); }
+	togglebutton > button > box.over { background: image(files/gui/options/checkbox_1.png); }
+	togglebutton > button > box.down { background: image(files/gui/options/checkbox_2.png); }
+	togglebutton > button.toggled > box { background: image(files/gui/options/checkbox_3.png); }
+	togglebutton > button.toggled > box.over { background: image(files/gui/options/checkbox_2.png); }
+	togglebutton > button.toggled > box.down { background: image(files/gui/options/checkbox_1.png); }
+	box.options > togglebutton {
+		anchors: pw-35;
+	}
+	box.options > text {
+		width: pw-55;
+	}
+	text.info {
+		font: Verdana;
+		bold: true;
+		size: 16;
+		height: 24;
+		x: 15;
+	}
+	]]>
+	</style>
+	
+	<!-- Button for the navigation bar. Must be a button. Toggles visiblility of the 'options' element. -->
+	<button id="btn_options" title="localize(LNG_SETTINGS, Settings)" style="common options"/>
+	
+	<!-- To change the shadows setting. Can be anything, but should contain the two settings togglebuttons. -->
+	<window id="options" background="color(0x7f000000)" anchors="0,0,pw,ph" mouseenabled="true">
+		<box style="container" width="250" height="185" anchors="(pw-w)/2,(ph-h)/2">
+			<button name="$btn_close$" title="localize(LNG_SETTINGS_ACCEPT, Save settings)" style="common close" anchors="pw-w"/>
+			<box style="container options" anchors="25,25,pw-25,ph-25">
+				<text value="localize(LNG_SHADOWS, Shadows)" style="label info" y="10"/>
+				<!-- To change the shadows setting. Must be a togglebutton. -->
+				<togglebutton name="chk_shadows" y="10" style="common" title="localize(LNG_SHADOWS_LONG)"/>
+				
+				<text value="localize(LNG_REFLECTION, Reflection)" style="label info" y="40"/>
+				<!-- To change the reflection setting. Must be a togglebutton. -->
+				<togglebutton name="chk_reflection" y="40" style="common" title="localize(LNG_REFLECTION_LONG)"/>
+				
+				<text value="localize(LNG_LIQUIDSCALING, Liquid scaling)" style="label info" y="70"/>
+				<!-- To change the liquid scaling setting. Must be a togglebutton. -->
+				<togglebutton name="chk_liquidscaling" y="70" style="common" title="localize(LNG_LIQUIDSCALING_LONG)"/>
+				
+				<text value="localize(LNG_AUTOMOVE, Automove)" style="label info" y="100"/>
+				<!-- To change the automove setting. Must be a togglebutton. -->
+				<togglebutton name="chk_automove" y="100" style="common" title="localize(LNG_AUTOMOVE_LONG)"/>
+			</box>
+		</box>
+	</window>
+</asul>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_PRINT" label="Print Button">印刷</langstring>
+	<langstring name="LNG_PRINT_CLOSE" label="Close Button">クローズ</langstring>
+	<langstring name="LNG_PRINT_INFO" label="Select pages tip">あなたがそれらをクリックして、印刷したいページを選択.</langstring>
+	<langstring name="LNG_PRINT_INFO2" label="Manually select pages">または手動でページ番号を入力してください。セミコロンを使用して別々の数字。 「FROM-TO」を使用して範囲を定義します。例えば、 10月20日。</langstring>
+	<langstring name="LNG_PRINT_PREV" label="Previous Button">前のページ</langstring>
+	<langstring name="LNG_PRINT_NEXT" label="Next Button">次のページ</langstring>
+	<langstring name="LNG_PRINT_PRINT" label="Print selected">選択したページを印刷</langstring>
+	<langstring name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">例:2-10,12,15-17</langstring>
+	<langstring name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages"><![CDATA[<b>警告</b><br/>技術的な制限のために、それはより多くを印刷することはできません <b>$1</b>当時のページ。あなたの選択を減らしてください（あなたが現在選択されています <b>$2</b> ページ).]]></langstring>
+</lang>

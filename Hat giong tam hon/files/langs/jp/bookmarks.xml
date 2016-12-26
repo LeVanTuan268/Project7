@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_BOOKMARK_TITLE" label="Bookmarks Title">ブックマーク</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE" label="Delect">このブックマークを削除します</langstring>
+	<langstring name="LNG_BOOKMARK_ADD" label="Add bookmark">ブックマークを追加</langstring>
+	<langstring name="LNG_BOOKMARK_OK" label="OK">決定する</langstring>
+	<langstring name="LNG_BOOKMARK_CANCEL" label="Cancel">キャンセル</langstring>
+	<langstring name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page">ページ $1</langstring>
+	<langstring name="LNG_BOOKMARK_COLOR" label="Random color">ランダムな色</langstring>
+	<langstring name="LNG_BOOKMARK_ADD_FLOAT" label="Add Button">加える</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE_FLOAT" label="Delete Button">削除</langstring>
+	<langstring name="LNG_BOOKMARK_UPDATE_FLOAT" label="Update Button">アップデート</langstring>
+	<langstring name="LNG_BOOKMARK_CLOSE_FLOAT" label="Close Button">クローズ</langstring>
+	<langstring name="LNG_BOOKMARK_PAGE_FLOAT" label="Page Title">ページ</langstring>
+	<langstring name="LNG_BOOKMARK_P_FLOAT" label="Pagination">ページ.</langstring>
+</lang>

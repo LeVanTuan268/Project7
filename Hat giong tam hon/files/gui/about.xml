@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<asul>
+<style><![CDATA[
+
+]]>
+</style>
+
+
+<window anchors="0,0,pw,ph" background="color(0x7f000000)" id="container" mouseenabled="true">
+	<box anchors="(pw-w)/2,(ph-h)/2" name="bContent" width="450" height="300" background="image(files/assets/skin/window/winbg.png)" scale9grid="25, 55,26,56" style="container">
+			<box anchors="0,0,pw,45" name="$drag_handle$">
+				<box anchors="5,6" width="24" height="25" name="bico" background="image(files/assets/skin/window/about.png)"/>
+				<text name="title" anchors="30,9,100" value="localize(LNG_SHARE_TITLE, About)" style="title"></text>
+				<button anchors="pw-26,6" name="$btn_close$" title="localize(LNG_CLOSE, Close)" width="24" height="24" style="btn_close"/>
+			</box>
+			<box anchors="10, 60, pw-10, ph-15">
+				<text anchors="0,0,pw,ph" name="contents" style="content"/>
+			</box>
+	</box>
+</window>
+</asul>

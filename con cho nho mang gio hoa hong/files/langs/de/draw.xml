@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_DRAWING" label="Toggle drawing tools">Schaltet Zeichenwers</langstring>
+	<langstring name="LNG_DRAWING_PEN_ALPHA" label="Opacity">Opazität</langstring>
+	<langstring name="LNG_DRAWING_PEN_DYNAMICS" label="Dynamic line thickness">Dynamische Linienstärke</langstring>
+	<langstring name="LNG_DRAWING_PEN_COLOR" label="Color">Farbe</langstring>
+	<langstring name="LNG_DRAWING_CLEAR" label="Clear drawing tip">Löschen Sie die aktuellen Seiten. Um eine einzelne Zeile zu entfernen, halten Sie die ALT-Taste gedrückt und klicken Sie darauf.</langstring>
+	<langstring name="LNG_DRAWING_SAVE" label="Save changes">Änderungen speichern</langstring>
+	<langstring name="LNG_DRAWING_CLOSE" label="Close">schließen</langstring>
+</lang>

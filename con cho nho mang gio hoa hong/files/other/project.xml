@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flipbookmaker version="4.3.4" IsQuick="false" QuickFile="" ProjectName="" DefaultName="205822_p67314ebiatruoc" SearchOrder="ltr" Google="" UseMiniMode="true" UsePSW="false" MiniWidth="400" MiniHeight="300" PSW="" StartPage="0" UseFlipSound="true" UseBackSound="false" UseSingleSound="false" BackSoundPath="" IsRight2Left="false" IsFastene="false" IsHardCover="0" IsHardPage="0" IsAnimate="true" IsCenterBook="true" IsLandScape="0" IsOpenBook="1" DragArea="top,middle,bottom" FlipSpeed="0.3" PageThick="0.1" SpineColor="13421772" Curvature="-0.5" PageBackColor="13421772" PageTranColor="0" FoldLine="0.5" Loaded="22" ZoomStep="0.25, 0.5, 1, 2, 4, 8" UseReflection="false" RefTransparent="75" RefOffset="0" IsAutoPlay="false" IsRepeat="false" DurationPlay="3" Preloader="bookcase" LoadText="" PowerBy="" NavigationStyle="" ButtonStyle="" ShowCover="true" ShowPreNext="true" ShowPlayStop="true" ShowScreen="true" ShowToc="true" ShowZoom="true" ShowBookmark="true" ShowDownload="true" DownloadUrl="" ShowText="true" ShowSlider="false" ShowShare="true" ShowPrint="true" ShowZoomBar="true" ShowSearch="true" ShowSearchBox="true" ShowMusic="true" ShowThumbnail="true" ShowExit="true" ShowBookCase="true" ButtonScale="0" IntroMovie="" IntroEffect="" Scene="" ShowAbout="true" ShowDraw="true" ShowLang="true" UseGradient="true" Edge="1" EdgeColor="13421772" TemplateGroup="float" TemplateName="wood" ExeTitle="" HtmlTitle="" HtmlKeywords="" HtmlDescription="" HtmlScript="" PageWidth="510" PageHeight="800" CoverWidth="510" CoverHeight="800" Langs="en" LangHints="English" BookLangs="en,jp,fr,de,ar">
+  <book title="205822_p67314ebiatruoc" plugins="navigationbar, keyboardnavigation, links, password, pdflinks, anchors, index, titles, search, gestures, draw, tuio, slideshow,javascript,swfaddress,print,thumbnails,bookmarks,select,musicplayers, toc, share, about, bookcase" pagewidth="510" pageheight="800" searchindex="files/search_index/en.txt" stiffskew="1" guipath="files/gui/" asulextension="xml" lang="en,jp,fr,de,ar" langpath="files/langs/" flagpath="files/flags/" pluginpath="files/plugins/" priorities="vid(20); snd(15); area(5); nav(5); txt(5); gal(30)" sndpath="files/snd/" dragspeed="0.3" password="" pwstart="0" thumbloadtext="Loading" zoommaxscale="2" zoomminscale="0.1" zoomsnap="0.25, 0.5, 1, 2, 4, 8" zoomstep="" slidestart="false" slidedelay="3" sliderepeat="false" toc="files/data/toc.xml" bookcase="files/data/bookcase.xml" download="" minimode="true" miniwidth="400" miniheight="300" layout="files/data/layout.xml" buttoncfg="files/data/buttoncfg.xml" about="files/data/about.xml" abc="bdba">
+    <background>
+      <box name="" anchors="0,0,ph,pw"/>
+    </background>
+    <bookmarks/>
+    <chapter pagewidth="510" pageheight="800">
+      <page stiffskew="1">
+        <img width="510" height="800" widthorg="1000" heightorg="1568" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205822_p67314ebiatruoc_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="470" height="800" widthorg="1000" heightorg="1703" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205823_p67314emucluc_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="510" pageheight="800">
+      <page stiffskew="1">
+        <img width="455" height="800" widthorg="1000" heightorg="1757" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205824_p67314e001_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="481" height="800" widthorg="1000" heightorg="1664" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205825_p67314e002_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="471" height="800" widthorg="1000" heightorg="1699" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205826_p67314e003_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="469" height="800" widthorg="1000" heightorg="1707" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205827_p67314e004_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="510" pageheight="800">
+      <page stiffskew="1">
+        <img width="473" height="800" widthorg="1000" heightorg="1693" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205828_p67314e005_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="514" height="800" widthorg="1000" heightorg="1557" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="0" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\Minh\AppData\Local\Temp\flipbook_{9D7B815C-D1B7-4BAC-8145-3087BC0A7A30}\files\pages\en\high\205829_p67314ebiasau_{E4A70695-F25E-4527-95A5-9A5435D3BF24}.jpg</src>
+        </img>
+      </page>
+    </chapter>
+  </book>
+  <MyFont Name="Verdana" Color="16777215" Size="12" Style="1" Text="205822_p67314ebiatruoc" Url=""/>
+  <Backgd UseBackImg="true" BackColor1="0" BackColor2="10066329" ColorStyle="radial" ImagePath="files/assets/skin/bg.png" ImageStyle="Stretch" TransParent="10" AType="0"/>
+  <Logo Name="" Color="0" Size="0" Style="0" Text="" Url="" UseLogo="false" UseImage="false" ImagePath="" ImageTrans="0" BackColor="0" Width="100" Height="100" Target="_blank"/>
+  <FontObj Name="" Color="0" Size="0" Style="0"/>
+  <Bookmarks/>
+  <Playlist skin="" miniskin="" startmini="false" onlywhenactive="false" playmode="1" loopmode="1"/>
+  <BookCase/>
+</flipbookmaker>

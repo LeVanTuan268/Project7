@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	/* Graphic for the close button state */
+	togglebutton > button { anchors:0,0,pw,ph; title: localize(LNG_SIDEBAR_CLOSE, Close the sidebar); }
+	togglebutton > button > box { anchors:0,0,pw,ph; background: image(files/gui/sidebar/btn_close.png); }
+	/* Graphic for the open button state */
+	togglebutton > button.toggled { title: localize(LNG_SIDEBAR_OPEN, Open the sidebar); }
+	togglebutton > button.toggled > box { background: image(files/gui/sidebar/btn_open.png); }
+	]]>
+	</style>
+	
+	<!-- The main bar container, will be collapsed to minimum size. To show the button it should therefore not clip its children. -->
+	<box id="sidebar" height="pageh" anchors="0,0,pagew/2" style="container" clipchildren="false" mouseenabled="true">
+		<!-- Container for actual sidebar content. -->
+		<box name="content" anchors="0,0,pw,ph"/>
+		
+		<!-- Button for toggling state -->
+		<togglebutton name="btn_toggle" width="16" height="40" anchors="pw-w,(ph-h)/2" style="container"/>
+	</box>
+	
+</asul>

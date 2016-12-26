@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_SEARCH_TITLE" label="Search Button">Suche</langstring>
+	<langstring name="LNG_SEARCH_START" label="Start search">Suche starten</langstring>
+	<langstring name="LNG_SEARCH_RESULT_INFO" label="Matching page number">Seite $1, $2 Spiel(es).</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_CLOSE" label="Close">schließen</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_TITLE" label="Search results">Suchergebnisse</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SEARCHING" label="Searching...">Suchen...</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SUMMARY" label="Show matches tip">Zeigen $1 of $2 Ergebnisse für '$3'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_EMPTY" label="No matches tip">Keine Treffer für '$1'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_ERROR" label="Error tip">Ein Fehler während der Suche Schaltknopf.</langstring>
+</lang>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_PRINTPDF" label="Save as PDF">Als PDF speichern</langstring>
+	<langstring name="LNG_PRINTPDF_CLOSE" label="Close">schließen</langstring>
+	<langstring name="LNG_PRINTPDF_INFO" label="Select pages tip">Wählen Sie die Seiten, die Sie als PDF indem Sie auf sie speichern wollen.</langstring>
+	<langstring name="LNG_PRINTPDF_INFO2" label="Manually input page numbers">Oder geben Sie die Seitenzahlen manuell. Separate Zahlen mit Semikolons. Bereiche definieren mit "von-bis": beispielsweise 10-20.</langstring>
+	<langstring name="LNG_PRINTPDF_PREV" label="Previous pages">Vorherige Seiten</langstring>
+	<langstring name="LNG_PRINTPDF_NEXT" label="Next pages">Nächste Seiten</langstring>
+	<langstring name="LNG_PRINTPDF_PRINT" label="Save selected pages">Sparen Sie ausgewählte Seiten</langstring>
+	<langstring name="LNG_PRINTPDF_SAVE_COMPLETE" label="Save complete book">Sparen komplettes Buch (ignoriert Auswahl)</langstring>
+	<langstring name="LNG_PRINTPDF_TOO_MANY_PAGES" label="Warning tip"><![CDATA[<b>Warnung</b><br/>Aufgrund technischer Beschränkungen ist es nicht möglich, mehr als sparen <b>$1</b> Seiten gleichzeitig. Bitte reduzieren Sie Ihre Auswahl (aktuell ausgewählten <b>$2</b> Seiten).<br/>Alternatively, save the whole book by clicking the 'Save complete book' button.]]></langstring>
+</lang>

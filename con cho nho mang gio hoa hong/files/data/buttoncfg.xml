@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tbuttoncfgs version="4.3.4">
+  <buttoncfg name="btn_first" visible="true"/>
+  <buttoncfg name="btn_last" visible="true"/>
+  <buttoncfg name="btn_next" visible="true"/>
+  <buttoncfg name="btn_pause" visible="true"/>
+  <buttoncfg name="btn_play" visible="true"/>
+  <buttoncfg name="btn_previous" visible="true"/>
+  <buttoncfg name="btn_bookmarks" visible="true"/>
+  <buttoncfg name="btn_draw" visible="true"/>
+  <buttoncfg name="btn_download" visible="true"/>
+  <buttoncfg name="btn_exit" visible="true"/>
+  <buttoncfg name="btn_fullscreen" visible="true"/>
+  <buttoncfg name="btn_about" visible="true"/>
+  <buttoncfg name="btn_mute" visible="true"/>
+  <buttoncfg name="btn_print" visible="true"/>
+  <buttoncfg name="btn_search" visible="true"/>
+  <buttoncfg name="btn_share" visible="true"/>
+  <buttoncfg name="btn_textselect" visible="true"/>
+  <buttoncfg name="btn_thumbnails" visible="true"/>
+  <buttoncfg name="btn_toc" visible="true"/>
+  <buttoncfg name="btn_zoomin" visible="true"/>
+  <buttoncfg name="btn_zoomout" visible="true"/>
+  <buttoncfg name="btn_lang" visible="true"/>
+  <buttoncfg name="slider" visible="false"/>
+  <buttoncfg name="zoomslider" visible="true"/>
+  <buttoncfg name="goto_page" visible="true"/>
+  <buttoncfg name="btn_bookcase" visible="true"/>
+</Tbuttoncfgs>

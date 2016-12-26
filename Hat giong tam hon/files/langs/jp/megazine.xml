@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_LANGUAGE_NAME" label="Language ToolTip">日本語</langstring>
+	<langstring name="LNG_LOADING" label="Page Loading">荷重... $1%</langstring>
+	<langstring name="LNG_BOOKEDGE_PAGENUMBER" label="Page Number">後藤ページ $1</langstring>
+	<langstring name="LNG_OK" label="OK">決定する</langstring>
+	<langstring name="LNG_CANCEL" label="Cancel">キャンセル</langstring>
+	<langstring name="LNG_YES" label="Yes">はい</langstring>
+	<langstring name="LNG_NO" label="No">いいえ</langstring>
+	<langstring name="LNG_QUIT" label="Quit">やめる</langstring>
+	<langstring name="LNG_QUIT_TIP" label="Quit confirm">あなたが終了してもよろしいです?</langstring>
+</lang>

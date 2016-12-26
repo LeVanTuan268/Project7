@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	/* Button graphics */
+	button.trash > box {background: image(files/assets/skin/draw/btndelete_up.png)}
+	button.trash > box.down { background: image(files/assets/skin/draw/btndelete_down.png)}
+	button.trash > box.over { background: image(files/assets/skin/draw/btndelete_hot.png)}
+	
+	button.save > box {background: image(files/assets/skin/draw/btnsave_up.png)}
+	button.save > box.down { background: image(files/assets/skin/draw/btnsave_down.png)}
+	button.save > box.over { background: image(files/assets/skin/draw/btnsave_hot.png)}
+	
+	button.close > box {background: image(files/assets/skin/draw/btnclose_up.png)}
+	button.close > box.down { background: image(files/assets/skin/draw/btnclose_down.png)}
+	button.close > box.over { background: image(files/assets/skin/draw/btnclose_hot.png)}	
+	button.close box {
+		width: 14;
+		height: 14;
+	}
+	
+	button.draw > box { background: image(files/gui/draw/btn_draw.png); }
+
+
+	/* Graphic for the scroll handle (for scrolling through results) */
+	scrollbar > button > box { background: image(files/gui/search/btn_scroll_handle.png); width: 15; height: 15; }
+	scrollbar > button > box.over { background: image(files/gui/search/btn_scroll_handle1.png); }
+	.sizetext text {
+		color: 0xFFFFFF;
+		font: Verdana;
+		size: 11;
+	}
+	hflow.colors {
+		collapse_width: 34; /* Keep drop shadow visible: 2 wider than real size */
+		mouseenabled: true;
+	}
+	.color {
+		width: 32;
+		height: 32;
+		padding: 4;
+		onclick: handleColorClicked(event.currentTarget);
+	}
+	.color > box {
+		width: 24;
+		height: 24;
+	}
+	]]>
+	</style>
+	
+	<script><![CDATA[
+	import de.mightypirates.megazine.plugins.draw.Pen;
+	import de.mightypirates.megazine.plugins.draw.Line;
+	import flash.geom.Point;
+	
+	// Pen size logic.
+	var penSize;
+	var penSizeBar;
+	
+	// Setup the pen size text box / scroll bar linking. We wait for the objects
+	// to be added to the stage, then get a reference to them and set up events.
+	function penSizeAdded(textfield) {
+		penSize = textfield;
+		penSize.text = 4;//megazine.settings.getSetting("drawminpensize");
+	}
+	function sizeScrollbarAdded(scrollbar) {
+		penSizeBar = scrollbar;
+		penSizeBar.maximum = megazine.settings.getSetting("drawmaxpensize") - megazine.settings.getSetting("drawminpensize");
+		addListener(penSizeBar, "change", sizeScrollbarChanged);
+		penSizeBar.intValue = 4;//1;
+	}
+	
+	// Update text box when scroll bar changes.
+	function sizeScrollbarChanged() {
+		if (penSize) penSize.text = penSizeBar.intValue + megazine.settings.getSetting("drawminpensize");
+		updatePreview();
+	}
+	
+	// Pen alpha logic.
+	var penAlpha;
+	var penAlphaBar;
+	
+	// Setup is the same as for size.
+	function penAlphaAdded(textfield) {
+		penAlpha = textfield;
+		if (penAlpha) penAlpha.text = megazine.settings.getSetting("drawdefaultpenalpha");
+	}
+	function alphaScrollbarAdded(scrollbar) {
+		penAlphaBar = scrollbar;
+		addListener(penAlphaBar, "change", alphaScrollbarChanged);
+		penAlphaBar.value = megazine.settings.getSetting("drawdefaultpenalpha");
+	}
+	function alphaScrollbarChanged() {
+		if (penAlpha) penAlpha.text = int(penAlphaBar.value * 10) / 10;
+		updatePreview();
+	}
+	
+	// Pen dynamics logic.
+	var penDynamics;
+	var penDynamicsBar;
+	
+	// Setup is the same as for size.
+	function penDynamicsAdded(textfield) {
+		penDynamics = textfield;
+		if (penDynamics) penDynamics.text = 0.1;//megazine.settings.getSetting("drawdefaultpenalpha");
+	}
+	function dynamicsScrollbarAdded(scrollbar) {
+		penDynamicsBar = scrollbar;
+		addListener(penDynamicsBar, "change", dynamicsScrollbarChanged);
+		penDynamicsBar.value = 0.1;//megazine.settings.getSetting("drawdynamics");
+	}
+	function dynamicsScrollbarChanged() {
+		if (penDynamics) penDynamics.text = int(penDynamicsBar.value * 10) / 10;
+		updatePreview();
+	}
+	
+	// Pen color logic.
+	var currentColor;
+	
+	var skewline;
+	function currentColorAdded2(color) {
+		skewline = color;
+	}
+	
+	// Setup follows same philosophy as for size/alpha.
+	function currentColorAdded(color) {
+		currentColor = color;
+	}
+	function colorListAdded(list) {
+		var hasFirst;
+		for (var ci = 0; ci < list.numChildren; ++ci) {
+			var child = list.getChildAt(ci);
+			if (child.name) {
+				if (!hasFirst) {
+					setCurrentColor(0xefef00);
+					//setCurrentColor(child.name);
+					hasFirst = true;
+				}
+				child.graphics.clear();
+				child.graphics.beginFill(child.name);
+				child.graphics.drawRect(4, 4, 24, 24);
+				child.graphics.endFill();
+			}
+		}
+	}
+	
+	var pen = new Pen(megazine.settings.getSetting("drawminpensize") / 2.0, 0x330000,
+										megazine.settings.getSetting("drawsmoothing"),
+										megazine.settings.getSetting("drawdynamics"));
+	var line;
+	function updatePreview() {
+		if (!currentColor) return;
+		
+		// Clear old content.
+		currentColor.graphics.clear();
+		
+		// Draw color outline.
+		//currentColor.graphics.beginFill(currentColor.opaqueBackground);
+		//currentColor.graphics.drawRect(0, 0, 33, 33);
+		//currentColor.graphics.endFill();
+		
+		// Draw background. Bright or dark depending on color brightness.
+		var r = (currentColor.opaqueBackground >> 16) & 0xFF;
+		var g = (currentColor.opaqueBackground >> 8) & 0xFF;
+		var b = (currentColor.opaqueBackground) & 0xFF;
+		var l = 0.2126 * r / 255.0 + 0.7152 * g / 255.0 + 0.0722 * b / 255.0;
+		if (l > 0.7) {
+			currentColor.graphics.beginFill(0x000000);
+		} else {
+			currentColor.graphics.beginFill(0xFFFFFF);
+		}
+		currentColor.graphics.drawRect(4, 4, 25, 57);
+		currentColor.graphics.endFill();
+		
+		// Draw example line.
+		if (line && line.parent) {
+			currentColor.removeChild(line);
+		}
+		
+		pen.minThickness = 0.1;//(penSizeBar.intValue + megazine.settings.getSetting("drawminpensize")) / 2;
+		pen.thicknessFactor = penDynamicsBar.value / 2;
+		pen.alpha = penAlphaBar.value;
+		pen.color = currentColor.opaqueBackground;
+		
+		line = Line.begin(currentColor, new Point(16, 8), pen);
+		var minThickness = pen.minThickness;
+		for (var i = 1; i <= 16; ++i) {
+			var y = i / 16.0;
+			var x = Math.sin(y * Math.PI * 2);
+			pen.minThickness = minThickness + pen.thicknessFactor * 2 * (8 - Math.abs(8 - i));
+			line.lineTo(new Point(16 + x * 8, 8 + y * 48));
+		}
+		
+		pen.minThickness = minThickness;
+		line.end();
+		
+		updatePreviewSkew();
+	}
+	
+	function updatePreviewSkew() {
+		if (!skewline) return;
+		
+		// Clear old content.
+		skewline.graphics.clear();
+		
+		// Draw background. Bright or dark depending on color brightness.
+		var r = (skewline.opaqueBackground >> 16) & 0xFF;
+		var g = (skewline.opaqueBackground >> 8) & 0xFF;
+		var b = (skewline.opaqueBackground) & 0xFF;
+		var l = 0.2126 * r / 255.0 + 0.7152 * g / 255.0 + 0.0722 * b / 255.0;
+		if (l > 0.7) {
+			skewline.graphics.beginFill(0x000000);
+		} else {
+			skewline.graphics.beginFill(0xFFFFFF);
+		}
+		skewline.graphics.drawRect(4, 4, 25, 57);
+		
+		skewline.graphics.lineStyle(pen.minThickness, skewline.opaqueBackground, pen.alpha);
+		skewline.graphics.moveTo(10,10);
+		skewline.graphics.lineTo(20, 50);
+		skewline.graphics.endFill();
+	}
+	
+	function linestylechanged(btn){
+		if (btn.parent.getChildAt(0) == btn) return; //already in the first position
+		
+		if (btn != skewline.parent){
+			btn.parent.addChildAt(skewline.parent, 1);
+			currentColor.opaqueBackground = skewline.opaqueBackground;
+			skewline.opaqueBackground = null;
+			megazine.settings.setSetting('direction', '');
+		}else{
+			btn.parent.addChildAt(skewline.parent, 0);
+			skewline.opaqueBackground = currentColor.opaqueBackground;
+			currentColor.opaqueBackground = null;
+			megazine.settings.setSetting('direction', 'skew');
+		}
+		
+		updatePreview();
+	}
+	
+	// When the selected color changed we fill the color display.
+	function setCurrentColor(color) {
+		if (!currentColor) return;
+		
+		// This has to be set, because we use it to read the selected color in AS3.
+		
+		if (currentColor.parent.parent.getChildAt(0) == currentColor.parent){
+			currentColor.opaqueBackground = uint(color);
+		}else{
+			skewline.opaqueBackground = uint(color);
+		}
+		
+		updatePreview();
+	}
+	function handleColorClicked(color) {
+		setCurrentColor(color.name);
+	}
+	]]></script>
+	
+	<!-- Button for the navigation bar. Must be a button. Toggles visiblility of the 'help' element. -->
+	<button id="btn_draw" title="localize(LNG_DRAWING, Toggle drawing tools)" style="common draw"/>
+	
+	<!-- To change the shadows setting. Can be anything, but should contain the two settings togglebuttons. -->
+	<window id="container" x="70" y="85" background="color(0x7f000000)" minwidth="42" resize="true" mouseenabled="true" clipchildren="false" style="container" padding="0,0,0,5">
+		<!-- Drag handle... -->
+		<box name="$drag_handle$" anchors="0,0,pw,16" background="image(files/assets/skin/draw/top_bar.png)"/>
+		<!-- Close button -->
+		<button name="$btn_close$" style="common close" anchors="pw-w-1" title="localize(LNG_DRAWING_CLOSE, Close)"/>
+		<!-- Controls -->
+		<vflow clipchildren="false" padding="5" y="21" maxwidth="32">
+			<!-- Pen size text box + slider -->
+			<hflow collapse_width="32" center="true" mouseenabled="true">
+				<!-- Text display of current thickness -->
+				<box style="input" width="32" height="21">
+					<text name="txt_pensize" style="sizetext" align="center"
+								restrict="0123456789"
+								maxchars="2"
+								onaddedtostage="penSizeAdded(event.currentTarget)"
+								title="localize(LNG_DRAWING_PEN_THICKNESS, Line thickness)"/>
+				</box>
+				<!-- Slider to change thickness -->
+				<box width="115" height="21">
+					<scrollbar orientation="horizontal" x="10" y="3" height="15" width="100" background="gradient(linear-vertical,0x666666,0x4d4d4d)" onaddedtostage="sizeScrollbarAdded(event.currentTarget)">
+						<button name="$scroll_handle$" width="15" height="15"/>
+					</scrollbar>
+				</box>
+			</hflow>
+			<box height="10" width="1"/> <!-- spacing -->
+			
+			<!-- Pen alpha text box + slider -->
+			<hflow collapse_width="32" center="true" mouseenabled="true">
+				<!-- Text display of current alpha -->
+				<box style="input" width="32" height="21">
+					<text name="txt_penalpha" style="sizetext" align="center"
+								restrict="0123456789."
+								maxchars="3"
+								onaddedtostage="penAlphaAdded(event.currentTarget)"
+								title="localize(LNG_DRAWING_PEN_ALPHA, Opacity)"/>
+				</box>
+				<!-- Slider to change alpha -->
+				<box width="115" height="21">
+					<scrollbar orientation="horizontal" x="10" y="3" height="15" width="100" background="gradient(linear-vertical,0x666666,0x4d4d4d)" onaddedtostage="alphaScrollbarAdded(event.currentTarget)">
+						<button name="$scroll_handle$" width="15" height="15"/>
+					</scrollbar>
+				</box>
+			</hflow>
+			<box height="10" width="1"/> <!-- spacing -->
+			
+			<!-- Pen dynamics text box + slider -->
+			<hflow collapse_width="32" center="true" mouseenabled="true">
+				<!-- Text display of current dynamics -->
+				<box style="input" width="32" height="21">
+					<text name="txt_pendynamics" style="sizetext" align="center"
+								restrict="0123456789."
+								maxchars="3"
+								onaddedtostage="penDynamicsAdded(event.currentTarget)"
+								title="localize(LNG_DRAWING_PEN_DYNAMICS, Dynamic line thickness)"/>
+				</box>
+				<!-- Slider to change dynamics -->
+				<box width="115" height="21">
+					<scrollbar orientation="horizontal" x="10" y="3" height="15" width="100" background="gradient(linear-vertical,0x666666,0x4d4d4d)" onaddedtostage="dynamicsScrollbarAdded(event.currentTarget)">
+						<button name="$scroll_handle$" width="15" height="15"/>
+					</scrollbar>
+				</box>
+			</hflow>
+			<box height="10" width="1"/> <!-- spacing -->
+			
+			<!-- Pen color chooser -->
+			<hflow style="colors">
+				<!-- Currently selected color display -->
+				<button onclick="linestylechanged(event.currentTarget)" width="37" height="64" mouseenabled="true" title="localize(LNG_DRAWING_PEN_COLOR, Color)">
+					<!-- Name to allow access from AS3 -->
+					<box name="pencolor" onaddedtostage="currentColorAdded(event.currentTarget)" width="32" height="64"/>
+				</button>
+				
+				<button onclick="linestylechanged(event.currentTarget)" width="37" height="64" mouseenabled="true" title="localize(LNG_DRAWING_PEN_COLOR, Color)">
+					<!-- Name to allow access from AS3 -->
+					<box name="skewline" onaddedtostage="currentColorAdded2(event.currentTarget)" width="32" height="64"/>
+				</button>
+
+				<!-- List of colors -->
+				<vflow maxheight="64" onaddedtostage="colorListAdded(event.currentTarget)">
+					<!-- All possible colors; just put the color as the name -->
+					<button style="color" name="0x000000"/>
+					<button style="color" name="0xFFFFFF"/>
+					<button style="color" name="0x990000"/>
+					<button style="color" name="0x009900"/>
+					<button style="color" name="0x000099"/>
+					<button style="color" name="0x00bbbb"/>
+					<button style="color" name="0xefef00"/>
+					<button style="color" name="0xdd00dd"/>
+				</vflow>
+			</hflow>
+			
+			<!-- Clear current pages -->
+			<box width="32" height="32">
+				<button name="btn_clear" x="4" y="4" title="localize(LNG_DRAWING_CLEAR, Clear current pages)" style="common trash"/>
+			</box>
+
+			<!-- Manually trigger a save -->
+			<box width="32" height="32">
+				<button name="btn_save" x="4" y="4" title="localize(LNG_DRAWING_SAVE, Save changes)" style="common save"/>
+			</box>
+		</vflow>
+	</window>
+</asul>

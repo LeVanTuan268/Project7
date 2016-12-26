@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<langstring name="LNG_SEARCH_TITLE" label="Search Button">recherche</langstring>
+	<langstring name="LNG_SEARCH_START" label="Start search">Lancer la recherche</langstring>
+	<langstring name="LNG_SEARCH_RESULT_INFO" label="Matching page number">Page 1 $, 2 $ correspondance.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_CLOSE" label="Close">proche</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_TITLE" label="Search results">Résultats de la recherche</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SEARCHING" label="Searching...">recherche...</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SUMMARY" label="Show matches tip">Affichage de 1 $ $ 2 matchs pour '$ 3'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_EMPTY" label="No matches tip">Aucun élément correspondant à '$ 1'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_ERROR" label="Error tip">Une erreur s'est produite lors de la recherche.</langstring>
+</lang>

@@ -1,0 +1,45 @@
+/* jssor slider arrow navigator skin 02 css */
+/*
+.jssora02l                  (normal)
+.jssora02r                  (normal)
+.jssora02l:hover            (normal mouseover)
+.jssora02r:hover            (normal mouseover)
+.jssora02l.jssora02ldn      (mousedown)
+.jssora02r.jssora02rdn      (mousedown)
+*/
+.jssora02l, .jssora02r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('../img/thu%20slide/a02.png') no-repeat;
+    overflow: hidden;
+}
+.onho div{
+    width: 300px;
+    height: 60px;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02l.jssora02ldn { background-position: -3px -33px; }
+.jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+
+.jssort11 .p {    position: absolute;    top: 0;    left: -150px;}
+.jssort11 .tp {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}
+.jssort11 .i, .jssort11 .pav:hover .i {    position: absolute;    top: 3px;    left: 3px;    width: 60px;    height: 40px; padding-left: 8px;padding-top: 5px}
+* html .jssort11 .i {    width /**/: 62px;    height /**/: 32px;}
+.jssort11 .pav .i {    }
+.jssort11 .t, .jssort11 .pav:hover .t {    position: absolute;    top: 3px;    left: 68px;    width: 200px;    height: 32px; padding-left: 10px;padding-top: 3px;    line-height: 22px;    text-align: left;    color: black;    font-size: 15px;    font-weight: 700;}
+.jssort11 .pav .t, .jssort11 .p:hover .t {    color: #fc034f;filter: alpha(opacity = 100) ; opacity: 1}
+.jssort11 .c, .jssort11 .pav:hover .c {    position: absolute;    top: 48px;    left: 3px;    width: 280px;    height: 51px;padding-left: 8px    ;line-height: 21px;    color: black;    font-size: 14px;    font-weight: normal;}
+.jssort11 .pav .c, .jssort11 .p:hover .c {    color: #00afe9;}
+.jssort11 .t, .jssort11 .c {    transition: color 2s;    -moz-transition: color 2s;    -webkit-transition: color 2s;    -o-transition: color 2s;}
+.jssort11 .p:hover .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .pav:hover .c {    transition: none;    -moz-transition: none;    -webkit-transition: none;    -o-transition: none;}
+.jssort11 .p:hover, .jssort11 .pav:hover {    background: white;}
+.jssort11 .pav, .jssort11 .p.pdn {    background: white;}
+

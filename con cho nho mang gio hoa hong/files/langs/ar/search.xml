@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_SEARCH_TITLE" label="Search Button">بحث</langstring>
+	<langstring name="LNG_SEARCH_START" label="Start search">بدء البحث</langstring>
+	<langstring name="LNG_SEARCH_RESULT_INFO" label="Matching page number">الصفحة $ 1، $ 2 المباراة.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_CLOSE" label="Close">قريب</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_TITLE" label="Search results">نتائج البحث</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SEARCHING" label="Searching...">البحث...</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SUMMARY" label="Show matches tip">عرض $1 من $2 مباريات ل'$3'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_EMPTY" label="No matches tip">لا توجد مباريات ل '$1'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_ERROR" label="Error tip">ocurred لخطأ أثناء البحث.</langstring>
+</lang>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asul>
+<style>
+<![CDATA[
+	.mainwin{filter:dropshadow(2,45,0x000000,1,3,3,0.5,2)}
+
+]]>
+</style>
+
+	<!--  collapse_width="10" collapse_time="0.125" -->
+	<box id="container" anchors="50, 30, 320, ph-75">
+		<box anchors="0,40,pw,ph" background="image(files/assets/skin/bg-left.png)"/>
+		<box anchors="4,0,pw-4,40" id="top" style="common innertop" scale9grid="6,6,8,8">
+			<box anchors="5,6" width="24" height="25" background="image(files/assets/skin/window/bookmarks.png)" />
+			<text name="title" anchors="35,9" value="localize(LNG_BOOKMARK_TITLE, Bookmarks)"  style="title"/>
+			<button onclick="megazine.go_bookmarks()" anchors="pw-w-10, (ph-h)/2" width="24" height="24" style="btn_close"/>		
+		</box> 
+    <box anchors="0,40,pw,130">
+    	<box anchors="10, 15" height="70" name="curthumb"/>
+    	<text font="Verdana, Helvetica, Arial, _sans" anchors="120, 10, 220, 30" name="tcurpage" value="p.6-7"/>
+    	<box anchors="120, 33, 250, 53" style="input">
+				<text name="bmcontent" value=""/>
+			</box>
+			<button anchors="120, 62" width="56" height="23" name="btnAdd" style="btn_common">
+			  <text anchors="0,2,pw,ph" align="center" value="localize(LNG_BOOKMARK_ADD_FLOAT, Add)" color="0" size="13" name="tAdd"/>	
+			</button>
+			<button anchors="120, 62" width="56" height="23" name="btnUpdate" style="btn_common">
+			  <text anchors="0,2,pw,ph" align="center" value="localize(LNG_BOOKMARK_UPDATE_FLOAT, Update)" color="0" size="13" name="tAdd"/>	
+			</button>
+			<button anchors="187, 62" width="56" height="23" name="btnDelete" visible="false" style="btn_common">
+			  <text anchors="0,2,pw,ph" align="center" value="localize(LNG_BOOKMARK_DELETE_FLOAT, Delete)" color="0" size="13" />	
+			</button>
+    </box>
+	  <box name="contents" anchors="14,144,pw-14,ph-11" background="color(0xDF212735)"> 
+			<button name="btn_up" anchors="0,0,pw" height="26" style="btn_up" background="color(0xB2BCC4DE)"/>
+	    <scrollpane anchors="0,26,pw,ph-26" name="scrollpane" mousewheel="y" resize="true" align="top">
+	    	<box name="$viewport$" resize="true">
+					<vflow name="bookmarklist" itemintop="true"/>
+				</box>
+			</scrollpane>
+			<button name="btn_down" anchors="0,ph-26,pw" height="26" style="btn_down" background="color(0xB2BCC4DE)"/>
+		</box>
+</box>
+    
+			
+<button width="270" height="90" id="content" buttonmode="false" > 
+	<box name="$up$" anchors="23, 8, pw-23, ph" background="color(0x5AB8BFDB)"/>	
+	<box name="$down$" anchors="23, 8, pw-23, ph" background="color(0x5AB8BFDB)"/>
+	<box name="$over$" anchors="23, 8, pw-23, ph" background="color(0x5AB8BFDB)"/>
+	<box anchors="23, 8, pw-23, ph" buttonmode="true" mouseenabled="true">
+		<box  anchors="5, 4" width="70" height="70" name="thumb"/>
+		<text font="Verdana, Helvetica, Arial, _sans" anchors="80,1,pw-10" name="bminfo1" style="info title" color="0"/>
+		<text font="Verdana, Helvetica, Arial, _sans" anchors="80,20,pw-10,ph" multiline="true" name="bminfo2" style="info" wordwrap="true" color="0"/>
+	</box>
+</button>			
+
+</asul>

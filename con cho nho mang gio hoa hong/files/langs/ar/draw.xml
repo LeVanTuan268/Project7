@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_DRAWING" label="Toggle drawing tools">تبديل أدوات الرسم</langstring>
+	<langstring name="LNG_DRAWING_PEN_THICKNESS" label="Line thickness">سمك الخط</langstring>
+	<langstring name="LNG_DRAWING_PEN_ALPHA" label="Opacity">غموض</langstring>
+	<langstring name="LNG_DRAWING_PEN_DYNAMICS" label="Dynamic line thickness">سمك الخط الديناميكي</langstring>
+	<langstring name="LNG_DRAWING_PEN_COLOR" label="Color">لون</langstring>
+	<langstring name="LNG_DRAWING_CLEAR" label="Clear drawing tip">صفحات الحالية واضحة. لإزالة خط واحد، مع الاستمرار على مفتاح ALT وفوقه.</langstring>
+	<langstring name="LNG_DRAWING_SAVE" label="Save changes">حفظ التغييرات</langstring>
+	<langstring name="LNG_DRAWING_CLOSE" label="Close">Close</langstring>
+</lang>

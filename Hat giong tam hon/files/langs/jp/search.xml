@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_SEARCH_TITLE" label="Search Button">検索</langstring>
+	<langstring name="LNG_SEARCH_START" label="Start search">検索を開始</langstring>
+	<langstring name="LNG_SEARCH_RESULT_INFO" label="Matching page number">ページ $1,$2 の試合</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_CLOSE" label="Close">クローズ</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_TITLE" label="Search results">検索結果</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SEARCHING" label="Searching...">検索...</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_SUMMARY" label="Show matches tip">$1 の $2 を示すことは '$3' のためにま致しす.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_EMPTY" label="No matches tip">のためのマッチいいえ '$1'.</langstring>
+	<langstring name="LNG_SEARCH_RESULTS_ERROR" label="Error tip">検索中にエラーが発生しました.</langstring>
+</lang>

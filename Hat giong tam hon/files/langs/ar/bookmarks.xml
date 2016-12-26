@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_BOOKMARK_TITLE" label="Bookmarks Title">الإشارات المرجعية</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE" label="Delect">حذف هذه المرجعية</langstring>
+	<langstring name="LNG_BOOKMARK_ADD" label="Add bookmark">إضافة إشارة مرجعية</langstring>
+	<langstring name="LNG_BOOKMARK_OK" label="OK">حسنا</langstring>
+	<langstring name="LNG_BOOKMARK_CANCEL" label="Cancel">إلغاء</langstring>
+	<langstring name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page">صفحة $1</langstring>
+	<langstring name="LNG_BOOKMARK_COLOR" label="Random color">لون عشوائي</langstring>
+	<langstring name="LNG_BOOKMARK_ADD_FLOAT" label="Add Button">إضافة</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE_FLOAT" label="Delete Button">حذف</langstring>
+	<langstring name="LNG_BOOKMARK_UPDATE_FLOAT" label="Update Button">التحديث</langstring>
+	<langstring name="LNG_BOOKMARK_CLOSE_FLOAT" label="Close Button">قريب</langstring>
+	<langstring name="LNG_BOOKMARK_PAGE_FLOAT" label="Page Title">صفحة</langstring>
+	<langstring name="LNG_BOOKMARK_P_FLOAT" label="Pagination">صفحة.</langstring>
+</lang>

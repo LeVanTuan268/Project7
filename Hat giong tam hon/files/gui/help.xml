@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	/* Button graphics */
+	button.help > box { background: image(files/gui/help/btn_help.png); }
+	button.close > box { background: image(files/gui/help/btn_close.png); }
+	button.next > box { background: image(files/gui/help/btn_arrow_right.png); }
+	button.prev > box { background: image(files/gui/help/btn_arrow_left.png); }
+	button.scroll_handle > box { background: image(files/gui/help/btn_scroll_handle.png); width: 15; height: 15; }
+	button.scroll_handle > box.over { background: image(files/gui/help/btn_scroll_handle1.png); }
+	.helptext text {
+		color: 0xFFFFFF;
+		font: Verdana;
+		size: 11;
+		maxwidth: 230;
+		multiline: true;
+		wordwrap: true;
+		autosize: left;
+	}
+	]]>
+	</style>
+	
+	<!-- Button for the navigation bar. Must be a button. Toggles visiblility of the 'help' element. -->
+	<button id="btn_help" title="localize(LNG_HELP, Help)" style="common help"/>
+	
+	<!-- To change the shadows setting. Can be anything, but should contain the two settings togglebuttons. -->
+	<window id="help" background="color(0x7f000000)" anchors="0,0,pw,ph" mouseenabled="true">
+		<box style="container" width="300" height="200" anchors="(pw-w)/2,(ph-h)/2">
+			<scrollpane style="container" anchors="25,25,pw-25,ph-25" mousewheel="y" scrolly="0">
+				<box anchors="0,0,pw-15,ph">
+					<box name="$viewport$" resize="true">
+						<box name="help_topics" resize="true" style="helptext">
+							<text value="localize(LNG_HELP1)"/>
+							<text value="localize(LNG_HELP2)"/>
+							<text value="localize(LNG_HELP3)"/>
+							<text value="localize(LNG_HELP4)"/>
+							<text value="localize(LNG_HELP5)"/>
+						</box>
+					</box>
+				</box>
+				<scrollbar name="$scroll_y$" orientation="vertical" anchors="pw-15,0,pw,ph" background="gradient(linear-vertical,0x666666,0x4d4d4d)">
+					<button name="$scroll_handle$" width="15" height="15" style="scroll_handle"/>
+				</scrollbar>
+			</scrollpane>
+			<button name="$btn_close$" title="localize(LNG_HELP_CLOSE, Close)" style="common close" anchors="pw-w"/>
+			<button name="btn_next" title="localize(LNG_HELP_NEXT, Next)" style="common next" anchors="pw-w,ph-h"/>
+			<button name="btn_prev" title="localize(LNG_HELP_PREV, Previous)" style="common prev" anchors="0,ph-h"/>
+		</box>
+	</window>
+</asul>

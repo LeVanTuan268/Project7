@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	<style>
+	<![CDATA[
+		.container {
+			background: color(0x7F000000);
+			filter: dropshadow(2,45,0x000000,1,3,3,0.7,2);
+		}
+	]]>
+	</style>
+	
+	<button id="btncopy" name="$scroll_handle$" width="56" height="23" style="btn_common">
+		<text width="56" height="23" align="center" value="localize(LNG_SELECT_COPY, Copy)"/>
+	</button>	
+	
+	<box id="infobox" width="150" height="36">
+		<button anchors="pw-26,0" name="btn_close" title="localize(LNG_CLOSE, Close)" width="24" height="24" style="btn_close"/>
+		<box anchors="0,13,pw-13,ph" background="color(0x7F000000)">
+			<text name="info" color="0xffffff" size="14" anchors="0,0,pw,ph" align="center" value="localize(LNG_SELECT_START, Text selection mode.)"/>
+		</box>
+	</box>	
+</asul>
+

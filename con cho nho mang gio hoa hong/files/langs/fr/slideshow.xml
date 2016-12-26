@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<langstring name="LNG_SLIDESHOW_START" label="Start ToolTip">Lancer le diaporama</langstring>
+	<langstring name="LNG_SLIDESHOW_STOP" label="Stop ToolTip">arrêter le diaporama</langstring>
+</lang>

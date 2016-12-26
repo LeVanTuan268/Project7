@@ -1,0 +1,25 @@
+#content-popup {
+    width: 500px;
+    height: 300px;
+    /*display: none; /!*M?c ??nh div ch?a n?i dung popup s? ???c ?n ?i*!/*/
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 300px;
+    position:relative;
+    box-shadow: 0 0 20px 1px #999;
+}
+#wrap-popup {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(0,0,0,0.9);
+}

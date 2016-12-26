@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+
+	<style>
+	<![CDATA[
+	button.close > box { background: image(files/gui/material/btn_close.png); }
+	button.next > box { background: image(files/gui/material/btn_next.png); }
+	button.prev > box { background: image(files/gui/material/btn_prev.png); }
+	button.scroll_handle > box { background: image(files/gui/material/btn_scroll_handle.png); width: 15; height: 15; }
+	button.scroll_handle > box.over { background: image(files/gui/material/btn_scroll_handle1.png); }
+	button.element > box {
+		anchors: 0,0,pw,ph;
+	}
+	button.element > box.over {
+		background: color(0x330000FF);
+	}
+	button.element > box.down {
+		background: color(0x330000FF);
+	}
+	box.pagelink {
+		background: gradient(linear-vertical,0x7f999999,0x7f333333);
+	}
+	button.btn_category {
+		/* scale to text requirements */
+		resize: true;
+		background: color(#ff6633);
+	}
+	button.btn_category box.over {
+		background: color(#ff8855);
+	}
+	button.btn_category box.down {
+		background: color(#dd6633);
+	}
+	button.btn_category text {
+		padding: 5,5,5,5;
+		align: left;
+		size: 12;
+		font: Verdana;
+		color: #333333;
+		/* allow resize to accommodate test */
+		autosize: left;
+		multiline: true;
+		wordwrap: true;
+		/* fixed width */
+		minwidth: 150;
+		maxwidth: 150;
+	}
+	text#caption {
+		anchors: 0,ph-h; /* show at bottom of img */
+		padding: 5,5,5,5;
+		align: center;
+		size: 11;
+		font: Verdana;
+		color: #ffffff;
+		/* allow resize to accommodate test */
+		autosize: center;
+		wordwrap: true;
+		multiline: true;
+		/* fixed width */
+		minwidth: 180;
+		maxwidth: 180;
+		background: color(#88000000);
+	}
+	]]>
+	</style>
+
+	<box id="categories" resize="true" anchors="pw-w, (ph-h)/2" collapse_width="15">
+		<vflow name="categories" style="container"/>
+	</box>
+
+	<button id="btn_category" style="btn_category">
+		<text name="title" />
+	</button>
+
+	<!-- Actual frame that gets opened when the print button is clicked -->
+	<window id="materials" anchors="0,0,pw,ph" mouseenabled="true" style="container">
+		<button name="$btn_close$" title="localize(LNG_MATERIAL_CLOSE, Close)" style="common close" anchors="pw-w-5,5"/>
+		
+		<text anchors="25,35,pw-25,55" value="localize(LNG_MATERIAL_INFO, Download a material by clicking on its thumbnail.)" style="info" background="gradient(linear-vertical,0x999999,0x666666)"/>
+		<!-- Pane with all the buttons representing the pages. -->
+		<scrollpane anchors="25,55,pw-25,ph-95" mousewheel="y" style="container">
+			<box anchors="25,0,pw-45,ph">
+				<box name="$viewport$" resize="true" maxwidth="pw">
+					<!-- This will be filled with the 'btn_material' elements (see below) -->
+					<hflow name="elements" maxwidth="pmaxw"/>
+				</box>
+			</box>
+			
+			<!-- Buttons to navigate to pages of page thumbnails -->
+			<button name="btn_previous" style="common prev" anchors="0,ph/2" title="localize(LNG_MATERIAL_PREV, Previous materials)"/>
+			<button name="btn_next" style="common next" anchors="pw-w-20,ph/2" title="localize(LNG_MATERIAL_NEXT, Next materials)"/>
+			
+			<!-- Scrollbar -->
+			<scrollbar name="$scroll_y$" orientation="vertical" anchors="pw-15,0,pw,ph" background="gradient(linear-vertical,0x666666,0x4d4d4d)">
+				<button name="$scroll_handle$" width="15" height="15" style="scroll_handle"/>
+			</scrollbar>
+		</scrollpane>
+	</window>
+	
+	<!-- Template for a page element. Must be a toggle button (used to show selection state). -->
+	<button id="btn_material" width="180" height="220" style="element">
+		<!-- Container for actual page thumbnail -->
+		<box name="thumb" anchors="10,10,pw-10,ph-10"/>
+		<!-- Caption -->
+		<text name="caption"/>
+	</button>
+</asul>

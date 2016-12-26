@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	/* Button graphics... */
+	button.close > box { background: image(files/gui/gallery/btn_close.png); }
+	button.prev > box { background: image(files/gui/gallery/btn_arrow_left.png); }
+	button.next > box { background: image(files/gui/gallery/btn_arrow_right.png); }
+	button.rotate_left > box { background: image(files/gui/gallery/btn_rotate_left.png); }
+	button.rotate_right > box { background: image(files/gui/gallery/btn_rotate_right.png); }
+	button.zoom_in > box { background: image(files/gui/gallery/btn_zoom_in.png); }
+	button.zoom_out > box { background: image(files/gui/gallery/btn_zoom_out.png); }
+	button.open > box { background: image(files/gui/gallery/btn_open_gallery.png); }
+	button.first > box { background: image(files/gui/gallery/btn_first_image.png); }
+	button.last > box { background: image(files/gui/gallery/btn_last_image.png); }
+	]]>
+	</style>
+	
+	<!-- Cursor image used to hint possibility to open gallery. -->
+	<box id="cur_open_gallery" background="image(files/gui/gallery/cur_open_gallery.png)" width="30" height="30" x="-10" y="-10"/>
+	
+	<!-- The button displayed in images to open galleries. Box around it for better visibility. -->
+	<box id="btn_open_gallery" style="container" width="26" height="26">
+		<button title="localize(LNG_GALLERY_OPEN, Open gallery)" style="common open" anchors="(pw-w)/2,(ph-h)/2"/>
+	</box>
+	
+	<!-- The gallery frame. -->
+	<box id="gallery_frame" background="color(0x7F000000)" anchors="0,0,pw,ph" mouseenabled="true">
+		<!-- Image container - the outer scrollpane used for scrolling the image if it's too big. -->
+		<scrollpane name="scrollpane" anchors="0,0,pw,ph" mousemode="mouse_move">
+			<box name="$viewport$" resize="true">
+				<!-- This is the element in which the actual image will be added -->
+				<box name="image"/>
+			</box>
+		</scrollpane>
+		
+		<!-- Used to display the image's thumbnail if necessary -->
+		<box style="container" anchors="10,10" alpha_out="0.3" resize="true" padding="10,10,10,10" hideifempty="true" mouseenabled="true">
+			<scrollpanecontrol name="control" hideifnodrag="true">
+				<box name="$dragrect$" style="dragrect"><box/></box>
+			</scrollpanecontrol>
+		</box>
+		
+		<!-- Box used to display the controls. -->
+		<hflow name="controls" style="controls container" anchors="(pw-w)/2,ph-h-10">
+			<!-- First image in the current gallery. -->
+			<button name="btn_first" title="localize(LNG_GALLERY_FIRST, First image)" style="common first"/>
+			<!-- Previous image in the current gallery. -->
+			<button name="btn_prev" title="localize(LNG_GALLERY_PREV, Previous image)" style="common prev"/>
+			<!-- Rotate image to the right (clockwise). -->
+			<button name="btn_rotate_right" title="localize(LNG_GALLERY_ROTATE_RIGHT, Rotate image clockwise)" style="common rotate_right"/>
+			<!-- Zoom in. -->
+			<button name="btn_zoom_in" title="localize(LNG_GALLERY_ZOOM_IN, Zoom in)" style="common zoom_in"/>
+			<!-- Zoom out. -->
+			<button name="btn_zoom_out" title="localize(LNG_GALLERY_ZOOM_OUT, Zoom out)" style="common zoom_out"/>
+			<!-- Rotate image to the left (counterclockwise). -->
+			<button name="btn_rotate_left" title="localize(LNG_GALLERY_ROTATE_LEFT, Rotate image counterclockwise)" style="common rotate_left"/>
+			<!-- Next image in the current gallery. -->
+			<button name="btn_next" title="localize(LNG_GALLERY_NEXT, Next image)" style="common next"/>
+			<!-- Last image in the current gallery. -->
+			<button name="btn_last" title="localize(LNG_GALLERY_LAST, Last image)" style="common last"/>
+		</hflow>
+		
+		<box style="container" anchors="pw-w-10,10" width="24" height="24">
+		<!-- Close the gallery. -->
+			<button name="btn_close" title="localize(LNG_GALLERY_EXIT, Exit gallery)" style="common close"/>
+		</box>
+		
+		<!-- Loading graphic used when loading images. Must be a progressbar. -->
+		<progressbar name="loading_bar" style="container common" anchors="(pw-w)/2,(ph-h)/2">
+			<box name="$bar$"/>
+			<text name="$text$" style="label"/>
+		</progressbar>
+	</box>
+	
+</asul>

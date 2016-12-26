@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<langstring name="LNG_ZOOM_OUT" label="Zoom Out">Zoom arrière</langstring>
+	<langstring name="LNG_ZOOM_SLIDE" label="Zoom pointe du curseur">Zoom pointe du curseur</langstring>
+	<langstring name="LNG_ZOOM_IN" label="Zoom in">zoomer</langstring>
+</lang>

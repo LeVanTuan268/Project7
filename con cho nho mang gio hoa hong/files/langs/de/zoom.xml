@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_ZOOM_OUT" label="Zoom Out">schrumpfen</langstring>
+	<langstring name="LNG_ZOOM_SLIDE" label="Zoom slider tip">Slide to Zoom-Stufe zu steuern</langstring>
+	<langstring name="LNG_ZOOM_IN" label="Zoom in">vergrößern</langstring>
+</lang>

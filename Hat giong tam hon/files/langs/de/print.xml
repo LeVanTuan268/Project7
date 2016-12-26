@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_PRINT" label="Print Button">drucken</langstring>
+	<langstring name="LNG_PRINT_CLOSE" label="Close Button">schließen</langstring>
+	<langstring name="LNG_PRINT_INFO" label="Select pages tip">Wählen Sie die Seiten, die Sie durch Anklicken drucken möchten.</langstring>
+	<langstring name="LNG_PRINT_INFO2" label="Manually select pages">Oder geben Sie die Seitenzahlen manuell. Separate Zahlen mit Semikolons. Bereiche definieren mit "von-bis": beispielsweise 10-20.</langstring>
+	<langstring name="LNG_PRINT_PREV" label="Previous Button">Vorherige Seiten</langstring>
+	<langstring name="LNG_PRINT_NEXT" label="Next Button">Nächste Seiten</langstring>
+	<langstring name="LNG_PRINT_PRINT" label="Print selected">Drucken ausgewählten Seiten</langstring>
+	<langstring name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">Beispiel:2-10,12,15-17</langstring>
+	<langstring name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages"><![CDATA[<b>Warnung</b><br/>Aufgrund technischer Beschränkungen ist es nicht möglich, mehr als ausdrucken <b>$1</b> Seiten gleichzeitig. Bitte reduzieren Sie Ihre Auswahl (Sie gerade ausgewählt haben <b>$2</b> Seiten).]]></langstring>
+</lang>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="lines" type="Lines"/>
+
+    <xsd:complexType name="Lines">
+        <xsd:sequence>
+            <xsd:element name="line" type="Line" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+	<xsd:complexType name="Line">
+		<xsd:sequence>
+			<xsd:element name="pen" type="Pen" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="points" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:ID" use="required"/>
+		<xsd:attribute name="page" type="xsd:integer" use="required"/>
+		<xsd:attribute name="direction" type="xsd:string" use="required"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="Pen">
+		<xsd:attribute name="minThickness" type="xsd:decimal"/>
+		<xsd:attribute name="thicknessFactor" type="xsd:decimal"/>
+		<xsd:attribute name="smoothing" type="xsd:decimal"/>
+		<xsd:attribute name="alpha" type="xsd:decimal"/>
+		<xsd:attribute name="color" type="xsd:integer"/>
+	</xsd:complexType>
+</xsd:schema>

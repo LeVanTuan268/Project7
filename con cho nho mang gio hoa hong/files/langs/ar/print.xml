@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_PRINT" label="Print Button">طباعة</langstring>
+	<langstring name="LNG_PRINT_CLOSE" label="Close Button">قريب</langstring>
+	<langstring name="LNG_PRINT_INFO" label="Select pages tip">حدد الصفحات التي ترغب في طباعتها من خلال النقر عليها.</langstring>
+	<langstring name="LNG_PRINT_INFO2" label="Manually select pages">أو أدخل أرقام الصفحات يدويا. أرقام منفصلة باستخدام الفواصل المنقوطة. تحديد نطاقات باستخدام 'من ل': على سبيل المثال 10-20.</langstring>
+	<langstring name="LNG_PRINT_PREV" label="Previous Button">الصفحات السابقة</langstring>
+	<langstring name="LNG_PRINT_NEXT" label="Next Button">الصفحات التالية</langstring>
+	<langstring name="LNG_PRINT_PRINT" label="Print selected">طباعة صفحات محددة</langstring>
+	<langstring name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">المثال :2-10 ،12،15-17</langstring>
+	<langstring name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages"><![CDATA[<b>تحذير</b><br/>بسبب القيود التقنية أنه من غير الممكن لطباعة أكثر من <b>$1</b>صفحات في وقت واحد. يرجى تقليل اختيارك (قمت بتحديدها حاليا <b>$2</b> صفحات).]]></langstring>
+</lang>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+
+	<style>
+	<![CDATA[
+	/* Graphic for the buttons */
+	button.close > box { background: image(files/gui/search/btn_close.png); }
+	button.search > box { background: image(files/gui/search/btn_search.png); }
+	/* Graphic for the scroll handle (for scrolling through results) */
+	scrollbar > button > box { background: image(files/gui/search/btn_scroll_handle.png); width: 15; height: 15; }
+	scrollbar > button > box.over { background: image(files/gui/search/btn_scroll_handle1.png); }
+	
+	.boxitem{background:gradient(linear-vertical,0x888888,0xFFFFFF);filter:dropshadow(2,45,0x000000,1,3,3,0.5,2)}
+		
+	button.btn_search > box {background: image(files/assets/skin/search_up.png); width:24; height:25; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_search > box.down { background: image(files/assets/skin/search_down.png); width:24; height:25; anchors:(pw-w)/2,(ph-h)/2;}
+	button.btn_search > box.over { background: image(files/assets/skin/search_hot.png); width:24; height:25; anchors:(pw-w)/2,(ph-h)/2;}
+	
+	]]>
+	</style>
+	
+	<script><![CDATA[
+	import flash.display.StageDisplayState;
+	import flash.events.FullScreenEvent;
+	
+	// Search input box added, remember it.
+	var searchbox;
+	function searchadded(box) {
+		searchbox = box;
+		addListener(searchbox.stage, FullScreenEvent.FULL_SCREEN, fullscreenchanged);
+	}
+	// Fullscreen state changed, update visibility of search field.
+	function fullscreenchanged() {
+		if (searchbox) searchbox.visible = searchbox.stage.displayState != StageDisplayState.FULL_SCREEN;
+	}
+	]]></script>
+	
+	<!-- Input box for the search   50,30,pw-50,70-->
+	<box width="125" height="24" id="search_input" style="container" anchors="pw-w-25-50,30+(35-24)/2" alpha_out="0.3" onaddedtostage="searchadded(event.currentTarget)">
+		<box anchors="2,2,pw-26,ph-2" style="input">
+			<text name="txt_search" value="localize(LNG_SEARCH_TITLE, Search)"/>
+		</box>
+		<button name="btn_search" title="localize(LNG_SEARCH_START, Start search)" style="common search" anchors="pw-w,0"/>
+	</box>
+	
+	<!-- Container for displaying search results. Will be shown after a search was triggered. -->
+	<box id="container" anchors="50, 30, 320, ph-75">
+		<box anchors="0,40,pw,ph" background="image(files/assets/skin/bg-left.png)"/>
+		
+		<box anchors="4,0,pw-4,40" id="top" style="common innertop" scale9grid="6,6,8,8">
+			<box anchors="8,8" width="24" height="25" background="image(files/assets/skin/search.png)" />
+			<text name="title" anchors="35,10" value="localize(LNG_SEARCH_TITLE, Search)" style="title"  />
+			<button onclick="megazine.go_search()" anchors="pw-w-10, (ph-h)/2" width="14" height="14">
+				<box name="$up$" anchors="0,0,pw,ph" background="image(files/assets/skin/close.png)"/>
+				<box name="$over$" anchors="0,0,pw,ph" background="image(files/assets/skin/close_hot.png)"/>
+				<box name="$down$" anchors="0,0,pw,ph" background="image(files/assets/skin/close_hot.png)"/>
+			</button>		
+		</box> 
+    <box anchors="0,40,pw,80">
+    	<box anchors="25, 15, pw-55, 35" style="input">
+				<text font="Verdana, Helvetica, Arial, _sans" name="txt_search_inner" value=""/>
+			</box>
+			<button anchors="pw-45, 15" width="24" height="25" name="btn_search_inner" style="common btn_search"/>
+    </box>
+	  <box name="contents" anchors="14,90,pw-14,ph-11" background="color(0xDF212735)"> 
+			<button name="btn_up" anchors="0,0,pw" height="26" style="btn_up" background="color(0xB2BCC4DE)"/>
+	    <scrollpane anchors="0,26,pw,ph-26" name="scrollpane" mousewheel="y" resize="true" align="top">
+	    	<box name="$viewport$" resize="true">
+					<vflow name="results" itemintop="true"/>
+				</box>
+			</scrollpane>
+			<button name="btn_down" anchors="0,ph-26,pw" height="26" style="btn_down" background="color(0xB2BCC4DE)"/>
+		</box>		
+		
+	</box>
+	    
+
+	<button width="270" height="90" id="content" buttonmode="false">
+		<box name="$up$" anchors="23, 8, pw-23, ph" background="color(0x5AB8BFDB)"/>	
+	  <box name="$over$" anchors="23, 8, pw-23, ph" background="color(0x5A8D95AD)"/>
+	  <box name="$down$" anchors="23, 8, pw-23, ph" background="color(0x5A8D95AD)"/>	
+		<box anchors="23, 8, pw-23, ph" buttonmode="true" mouseenabled="true">
+			<box  anchors="5, 0" width="70" height="70" name="thumb"/>
+			<text anchors="70,1,pw-10" name="information" style="info title" color="0"/>
+			<text anchors="70,20,pw-10,ph" multiline="true" name="excerpt" style="info" wordwrap="true" color="0"/>
+		</box>
+	</button>
+
+</asul>

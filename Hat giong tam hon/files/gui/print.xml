@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<asul>
+<style><![CDATA[
+	button.btn_ok box{background:image(files/assets/skin/print/btn_ok.png)}
+	button.close box{background:image(res/other/bookmarks/close.png)}
+	button.scroll_handle box{background:image(files/assets/skin/print/btn_scroll_handle.png);width:15;height:15}
+	button.scroll_handle box.over{background:image(files/assets/skin/print/btn_scroll_handle1.png)}
+	togglebutton.element button{anchors:10,10,pw-10,ph-10}
+	togglebutton.element button.box{anchors:0,0,pw,ph}
+	togglebutton.element button box.over{background:color(0x333399FF)}
+	togglebutton.element button box.down{background:color(0x333399FF)}
+	togglebutton.element button.selected{background:color(0x7F3399FF)}
+	progressbar box{width:200;height:20;anchors:(pw-w)/2,(ph-h)/2}
+	progressbar box box{background:gradient(linear-vertical,0xCCCCCC,0x999999);width:190;height:10;x:5;y:5}
+	progressbar box text{align:center;width:190;height:16;x:5;y:2}
+	box.pagelink{background:gradient(linear-vertical,0x7f999999,0x7f333333)}]]>
+</style>
+
+<window anchors="0,0,pw,ph" id="container" mouseenabled="true"  background="color(0x33000000)">
+<box anchors="(pw-w)/2,(ph-h)/2" width="720" height="500" name="bContent" background="image(files/assets/skin/window/winbg.png)"  scale9grid="25, 55,26,56">
+		<box anchors="0,0,pw,45" name="$drag_handle$">
+			<box anchors="5,6" width="24" height="25" name="bico" background="image(files/assets/skin/window/print.png)"/>
+			<text name="title" anchors="30,9,100" value="localize(LNG_PRINT_TITLE, Print)" style="title"></text>
+			<button anchors="pw-26,6" name="$btn_close$" title="localize(LNG_CLOSE, Close)" width="24" height="24" style="btn_close"/>
+		</box>
+
+		<hflow anchors="50,50" height="22">
+			<text width="340" value="localize(LNG_PRINT_TIP, Select the pages or input the page range to print.)" style="content"/>
+	    <box width="120" height="22" style="input">
+					<text value="" name="txt_pages" restrict="\-,0123456789"/>
+			</box>
+			<box height="22" width="150">
+				<text y="3" width="pw" height="20" size="10" color="#DFDFDF" style="content" value="localize(LNG_PRINT_INPUT_TIP, Example:2-10,12,15)"/>
+			</box>
+		</hflow>
+	
+	<scrollpane anchors="25,80,pw-10,ph-70" mousewheel="y">
+		<box anchors="25,0,pw-45,ph">
+			<box maxwidth="pw" name="$viewport$" resize="true">
+				<hflow maxwidth="pmaxw" name="elements"/>
+			</box>
+		</box>
+
+		<button anchors="0,ph/2" width="20" height="32" name="btn_previous" background="image(files/assets/skin/print/btn_prev.png)" title="localize(LNG_PRINT_PREV, Previous pages)"/>
+		<button anchors="pw-w-20,ph/2" width="20" height="32" name="btn_next" background="image(files/assets/skin/print/btn_next.png)" title="localize(LNG_PRINT_NEXT, Next pages)"/>
+		<scrollbar anchors="pw-20,0,pw,ph" background="image(files/assets/skin/window/scrollbar/scrollBar_track.png)" scale9grid="1,8,16,20" name="$scroll_y$" orientation="vertical">
+			<button name="$btn_reduce$" anchors="0,0,17,pw">
+        <box name="$up$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/upArrow_up.png)"/>
+        <box name="$over$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/upArrow_hot.png)"/>
+        <box name="$down$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/upArrow_down.png)"/>
+      </button>
+      <button name="$btn_increase$" anchors="pw-17,ph-17,pw,ph">
+          <box name="$up$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/downArrow_up.png)"/>
+          <box name="$over$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/downArrow_hot.png)"/>
+          <box name="$down$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/scrollbar/downArrow_down.png)"/>
+      </button>
+			<button width="17" height="80" name="$scroll_handle$">
+          <box name="$up$" anchors="(pw-w)/2,0,pw,ph" width="13" scale9grid="9,19,10,20" background="image(files/assets/skin/window/scrollbar/scrollBar_thumb_up.png)"/>
+          <box name="$over$" anchors="(pw-w)/2,0,pw,ph" width="13" scale9grid="9,19,10,20"  background="image(files/assets/skin/window/scrollbar/scrollBar_thumb_hot.png)"/>
+          <box name="$down$" anchors="(pw-w)/2,0,pw,ph" width="13" scale9grid="9,19,10,20"  background="image(files/assets/skin/window/scrollbar/scrollBar_thumb_down.png)"/>
+      </button>
+		</scrollbar>
+	</scrollpane>
+	<button anchors="(pw-w)/2,ph-65" width="154" height="45" name="btn_print_selected">
+	  <box name="$up$" anchors="0,0,pw,ph" background="image(files/assets/skin/print_up.png)"/>
+	  <box name="$over$" anchors="0,0,pw,ph" background="image(files/assets/skin/print_hot.png)"/>
+	  <box name="$down$" anchors="0,0,pw,ph" background="image(files/assets/skin/print_down.png)"/>
+	  <text anchors="65,3" value="localize(LNG_PRINT_START_PRINT, Print)" size="28" color="#333333" style="content"/>
+	</button>
+
+
+	<progressbar anchors="0,0,pw,ph" mouseenabled="true" name="progressbar" style="container">
+	<box style="container">
+	<box name="$bar$"/>
+	<text name="$text$" style="label"/>
+	</box>
+	</progressbar>
+	
+	<window anchors="0,0,pw,ph" mouseenabled="true" name="too_many_pages" style="container">
+	<box anchors="(pw-w)/2,(ph-h)/2" name="bContent" width="280" height="165" background="image(files/assets/skin/window/winbg.png)" scale9grid="7,45,14,48" style="container">
+		<box anchors="0,0,pw,45" name="$drag_handle$">
+			<text anchors="5,15,100,45" value="localize(LNG_PRINT_WARNING, Warning)" color="#333333"/>
+		</box>
+		<text anchors="10,50,pw-5,ph-45" multiline="true" name="txt_too_many_pages" style="info" wordwrap="true" color="#333333"/>
+		<button anchors="(pw-w)/2,ph-h-10" width="54" height="24" name="$btn_close$">
+		  <box name="$up$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/btn_up.png)"/>
+		  <box name="$over$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/btn_hot.png)"/>
+		  <box name="$down$" anchors="0,0,pw,ph" background="image(files/assets/skin/window/btn_down.png)"/>
+		  <text font="Verdana, Helvetica, Arial, _sans" anchors="0,3,54,24" align="center" value="localize(LNG_PRINT_OK, OK)" size="11" color="#333333"/>
+		</button>
+	</box>
+	</window>
+</box>
+</window>
+
+<togglebutton width="120" height="150" id="page_button" style="element">
+	<box anchors="0,5,pw-5,ph-5" name="if_even" style="pagelink"/>
+	<box anchors="5,5,pw,ph-5" name="if_odd" style="pagelink"/>
+	<box anchors="10,10,pw-10,ph-10" name="thumb"/>
+	<box anchors="10,10,pw-10,ph-10" background="color(0x666666)" blendmode="hardlight">
+	<text align="center" anchors="0,(ph-h)/2,pw" bold="true" color="0xffffff" font="Verdana" height="55" name="number" size="40"/>
+	</box><button name="$btn_normal$"/>
+	<button name="$btn_toggled$" style="selected"/>
+</togglebutton>
+	
+</asul>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_PRINTPDF" label="Save as PDF">名前を付けて保存、PDF</langstring>
+	<langstring name="LNG_PRINTPDF_CLOSE" label="Close">クローズ</langstring>
+	<langstring name="LNG_PRINTPDF_INFO" label="Select pages tip">あなたがそれらをクリックすることにより、PDFファイルとして保存したいページを選択.</langstring>
+	<langstring name="LNG_PRINTPDF_INFO2" label="Manually input page numbers">または手動でページ番号を入力してください。セミコロンを使用して別々の数字。 「FROM-TO」を使用して範囲を定義します。例えば、10-20.</langstring>
+	<langstring name="LNG_PRINTPDF_PREV" label="Previous pages">前のページ</langstring>
+	<langstring name="LNG_PRINTPDF_NEXT" label="Next pages">次のページ</langstring>
+	<langstring name="LNG_PRINTPDF_PRINT" label="Save selected pages">選択したページを保存</langstring>
+	<langstring name="LNG_PRINTPDF_SAVE_COMPLETE" label="Save complete book">完全な本を保存します（選択は無視します）</langstring>
+	<langstring name="LNG_PRINTPDF_TOO_MANY_PAGES" label="Warning tip"><![CDATA[<b>警告</b><br/>技術的な制限のために、それはより多くを保存することはできません <b>$1</b> 当時のページ。あなたの選択を減らしてください（あなたが現在選択されています 	<b>$2</b> ページ).<br/>	別の方法として、「完全なセーブブック」ボタンをクリックして、一冊の本を保存.]]></langstring>
+</lang>

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhà Phát Hành: Nxb Trẻ</title>
+    <meta name="viewport" content="width=device-width,initali-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/popup.css"/>
+    <link rel="stylesheet" href="css/ef3d.css"/>
+
+    <!-- của mình-->
+    <link rel="stylesheet" href="css/mystyle.css"/>
+    <link rel="stylesheet" href="css/trangcon.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <style type="text/css">
+        .breadcrumb-over li
+        {
+            list-style: none;
+
+        }
+        .menu
+        {
+            border: 1px solid #e6e6e6;
+            border-radius: 5px 5px;
+            padding-left: 5px;
+            padding-top: 15px;
+        }
+        .menu li:hover
+        {
+            border-right: none;
+        }
+        .breadcrumb-over li
+        {
+            display: inline-block;
+        }
+        .boder
+        {
+            border-bottom: 1px dashed #e6e6e6;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+
+        .menu li
+        {
+            padding-bottom: 15px;
+            background: url(images/right-arow.png) 215px no-repeat;
+            background-size: 5px;
+        }
+        .menu .boder span
+        {
+            font-weight: bold;
+            font-size: 16px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background:none;
+
+
+        }
+        .menu  .non
+        {
+            background-image: none;
+        }
+        .menu ul:hover
+        {
+            border-right: none;
+        }
+        .tieude h4
+        {
+            color:#00afe9;
+            margin-top: -4px;
+            border-bottom: 1px solid #e6e6e6;
+            padding-bottom: 10px;
+
+
+        }
+        .noidung
+        {
+            padding-top: 20px;
+            padding-left: 10px;
+            border-bottom: 1px dashed #e6e6e6;
+            padding-bottom: 20px;
+        }
+        .week
+        {
+            padding-top: 5px;
+            padding-left: 10px;
+            border-bottom: 1px dashed #e6e6e6;
+            padding-bottom: 10px;
+        }
+        .icon {
+            background: url(images/lag.png) top left no-repeat;
+            background-size: 38px;
+            width: 38px;
+            height: 60px;
+        }
+        .icon span
+        {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: bold;
+            line-height: 0.818;
+            left: 13px;
+            top: 11px;
+            position: absolute;
+            text-shadow: 0px 1px 1px rgba(0,0,0,0.49);
+
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #00afe9;
+            text-decoration: none;
+        }
+        button{
+            background-color: #00afe9;
+        }
+    </style>
+
+
+    <!-- popup-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#btn-show-popup').click(function() { // bắt sự kiện click vào #btn-show-popup
+                $('#content-popup').wrap('<div id="wrap-popup"></div>'); // lệnh wrap, ở đây mình bọc #content-popup bằng 1 div là #wrap-popup  (để làm nền đen)
+                $('#content-popup').css('display', 'inline-block'); // hiển thị div chứa nội dung popup lên
+
+                $('#wrap-popup').click(function() { // bắt sự kiện khi click bên ngoài popup
+                    $('#content-popup').css('display', 'none'); // ẩn div chứa nội dung popup đi
+                    $('#content-popup').unwrap(); // xóa div bọc vừa tạo lúc nãy
+                });
+            });
+        });
+    </script>
+
+    <!-- menu-->
+    <link rel="stylesheet" href="css/SpryMenuBarVertical.css"/>
+
+    <!-- slide chạy-->
+    <link rel="stylesheet" href="css/chay.css"/>
+
+    <!-- của mình-->
+    <link rel="stylesheet" href="css/styleslide.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/SpryMenuBar.js"></script>
+    <!-- jquery-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/slideshow.js"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script><script>
+    $(document).ready(function() {
+        $("#loginLink").click(function( event ){
+            event.preventDefault();
+            $(".overlay").fadeToggle("fast");
+        });
+
+        $(".overlayLink").click(function(event){
+            event.preventDefault();
+            var action = $(this).attr('data-action');
+
+            $.get( "ajax/" + action, function( data ) {
+                $( ".login-content" ).html( data );
+            });
+
+            $(".overlay").fadeToggle("fast");
+        });
+
+        $(".close").click(function(){
+            $(".overlay").fadeToggle("fast");
+        });
+
+        $(document).keyup(function(e) {
+            if(e.keyCode == 27 && $(".overlay").css("display") != "none" ) {
+                event.preventDefault();
+                $(".overlay").fadeToggle("fast");
+            }
+        });
+    });
+</script>
+
+
+
+    <!-- slider tab-->
+    <script type="text/javascript" src="js/jquery-ui-1.9.0.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-tabs-rotate.js"></script>
+    <script src="js/rollerblade.js"></script>
+
+
+
+    <!-- menu-->
+
+    <script src="file:///C|/Users/Minh/AppData/Roaming/Adobe/Dreamweaver CS6/en_US/Configuration/Temp/Assets/eam3CC4.tmp/SpryMenuBar.js" type="text/javascript"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+                d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+                _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+            $.src="//v2.zopim.com/?3jtL68g2RW7OQBvG79bJb5eNzmIlYhOD";z.t=+new Date;$.
+                    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!--End of Zopim Live Chat Script-->
+
+
+    <!-- Script slider tab-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+        });
+    </script>
+
+
+    <!-- Đọc thử-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="Generator" content="[Kvisoft FlipBook Maker Pro version 4.0.0] at http://www.kvisoft.com/flipbook-maker-pro/" />
+
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/swfaddress.js"></script>
+    <script type="text/javascript">
+        var assetsFolder = 'res';
+        var mobileFolder = 'mobile';
+
+        var changeURL = function(){
+            if(document.getElementById('hrefMobile'))document.getElementById('hrefMobile').href =mobileFolder+'/index.html';
+            delete changeURL;
+        }
+        if (document.addEventListener){
+            document.addEventListener("DOMContentLoaded", changeURL, false);
+        } else {
+            document.attachEvent("onDOMContentLoaded", changeURL);
+        }
+
+        function getURLParam()
+        {
+            var returnObject = {};
+            var href = window.location.href;
+            if ( href.indexOf("?") > -1 )
+            {
+                var param = href.substr(href.indexOf("?"));
+                var arrayParam = param.split("&");
+
+                for ( var i = 0; i < arrayParam.length; i++ )
+                {
+                    var value = arrayParam[i].split("=");
+                    returnObject[value[0]] = value[1];
+                }
+            }
+            returnObject['res'] = assetsFolder;
+            return returnObject;
+        }
+
+        var dir = "./";
+
+        var getURI = function(){
+            var URIArray = document.location.href.split('/');
+
+            URIArray.length = URIArray.length-1;
+            var URIstr = URIArray.join('/');
+
+            URIArray = null;
+
+            var URIarr = dir.split('/');
+            URIarr[0] = URIarr[0]=='.'?'':URIarr[0];
+            var dirStr = URIarr.join('/');
+
+            URIstr = URIstr+dirStr;
+
+            return URIstr;
+        }
+
+        var ua = navigator.userAgent.toLowerCase(),
+                platform = navigator.platform.toLowerCase(),
+                UA = ua.match(/(opera|ie|firefox|chrome|version)[\s\/:]([\w\d\.]+)?.*?(safari|version[\s\/:]([\w\d\.]+)|$)/) || [null, 'unknown', 0],
+                mode = UA[1] == 'ie' && document.documentMode;
+
+        var Browser = {
+            extend: Function.prototype.extend,
+            name: (UA[1] == 'version') ? UA[3] : UA[1],
+            version: mode || parseFloat((UA[1] == 'opera' && UA[4]) ? UA[4] : UA[2]),
+            Platform: {
+                name: ua.match(/ip(?:ad|od|hone)/) ? 'ios' : (ua.match(/(?:webos|android|bada|symbian|palm|blackberry)/) || platform.match(/mac|win|linux/) || ['other'])[0]
+            },
+            Features: {
+                xpath: !!(document.evaluate),
+                air: !!(window.runtime),
+                query: !!(document.querySelector),
+                json: !!(window.JSON)
+            },
+            Plugins: {}
+        };
+
+        var page = parseInt(window.location.hash.substring(2, window.location.hash.length-1));
+        page = page?'#'+page:'';
+        if(Browser.Platform.name == 'android' || Browser.Platform.name == 'ios') window.location =mobileFolder+"/index.html"+page;
+
+        var dir = "./";
+        var jsfolder = "js/";
+        var swffile = "book.swf";
+
+        var flashvars = {};
+        var params = {
+            menu: "false",
+            scale: "noScale",
+            allowfullscreen: "true",
+            allowscriptaccess: "always",
+            bgcolor: "#ffffff",
+            wmode:"transparent"
+        };
+        var attributes = {id: "magazine"};
+        swfobject.embedSWF(swffile, "magazine", "100%", "100%", "9.0.0", jsfolder+"expressInstall.swf", flashvars, params, attributes);
+    </script>
+
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+</head>
+<body>
+<div class="container">
+    <!-- Logo - Intro - Login-->
+    <div class="row" id="header1">
+
+        <!-- Logo-->
+        <div class="col-md-5 col-sm-5 col-xs-5" id="logo">
+            <img id="logo1" height="100px" src="img/logo2.png" title="Tải miễn phí Ebook - Mua sách giá rẻ tại mitibook.vn" alt="Tải miễn phí Ebook - Mua sách giá rẻ tại mitibook.vn"/>
+        </div>
+
+        <!-- Intro giới thiệu-->
+        <div class="col-md-6 col-sm-6 col-xs-6" id="intro">
+            <img id="intro1" style="padding-bottom: 10px" src="img/intro.PNG" alt=""/>
+        </div>
+
+        <!-- Login-->
+        <div id="login" class="col-md-1 col-xs-1 col-sm-1">
+            <a href="login.php" class="overlayLink" data-action="login-form.html">Đăng nhập</a> -
+            <a href="Dangky.html" >Đăng ký</a><br><br><a href="Theo%20doi%20don%20hang.html">
+            <button id="kiemtradonhang" type="button" style="background-color: #00afe9;color: white"><i class="fa fa-map-marker"></i> Theo dõi đơn hàng</button></a>
+        </div>
+
+        <div class="col-md-2 overlay" style="display: none;z-index: 1000000">
+            <div class="login-wrapper">
+                <div class="login-content">
+                    <a class="close">x</a>
+                    <h3 style="color: #00afe9">Đăng nhập</h3>
+                    <form method="post" action="login.php">
+                        <label for="username">
+                            Tài khoản:
+                            <input type="text" name="username" id="username" placeholder="Tài khoản tối thiểu 8 ký tự và tối đa 20 ký tự" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{7,19}$" required="required" />
+                        </label>
+                        <label for="password">
+                            Mật khẩu:
+                            <input type="password" name="password" id="password" placeholder="Mật khẩu ít nhất 8 ký tự và ít nhất 1 chữ số" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[a-z]).*$" required="required" />
+                        </label>
+                        <table>
+                            <tr>
+                                <td width="200px"><input type="checkbox"> Ghi nhớ thông tin</td>
+                                <td width="200"><a href="#" style="color: #00afe9">Quên mật khẩu</a></td>
+                            </tr>
+                        </table><br>
+                        <button type="submit">ĐĂNG NHẬP</button><br><br>
+                        Chưa có tài khoản vui lòng <a href="#" style="color: #fc034f">ĐĂNG KÝ</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--</div>-->
+        <!-- login-->
+        <script>
+            $(document).ready(function() {
+                $("#loginLink").click(function( event ){
+                    event.preventDefault();
+                    $(".overlay").fadeToggle("fast");
+                });
+
+                $(".overlayLink").click(function(event){
+                    event.preventDefault();
+                    var action = $(this).attr('data-action');
+
+                    $.get( "ajax/" + action, function( data ) {
+                        $( ".login-content" ).html( data );
+                    });
+
+                    $(".overlay").fadeToggle("fast");
+                });
+
+                $(".close").click(function(){
+                    $(".overlay").fadeToggle("fast");
+                });
+
+                $(document).keyup(function(e) {
+                    if(e.keyCode == 27 && $(".overlay").css("display") != "none" ) {
+                        event.preventDefault();
+                        $(".overlay").fadeToggle("fast");
+                    }
+                });
+            });
+        </script>
+
+
+    </div>
+
+    <!--MenuTiTle - Search - Item-->
+    <div class="row" id="header2">
+
+        <!-- menutitle = Danh mục sách-->
+        <div class="col-md-3" id="menu">
+
+            <div class="dropdown">
+                <button style="height: 48px;background-color: #00afe9;border: none" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <h4 id="dms" style="padding-top: 0px;float: left"><a href="#" style="color: white; text-decoration: none" >DANH MỤC SÁCH  </a></h4>
+                    <span style="margin-top: 15px;margin-left: 5px" class="caret"></span>
+                </button>
+                <ul class="dropdown-menu MenuBarVertical" aria-labelledby="dropdownMenu1" id="MenuBar1">
+                    <li><a class="MenuBarItemSubmenu" href="#">S&aacute;ch Giảm Gi&aacute;</a>
+                        <ul>
+                            <li><a href="#">Tất Cả S&aacute;ch Giảm Gi&aacute;</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học Trong N&#432;ớc</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học N&#432;ớc Ngo&agrave;i</a></li>
+                            <li><a href="#">S&aacute;ch Chuy&ecirc;n Ng&agrave;nh Kỹ Thuật</a></li>
+                            <li><a href="#">S&aacute;ch Kinh Tế</a></li>
+                            <li><a href="#">Sách Kỹ Năng Sống</a></li>
+                            <li><a href="#">S&aacute;ch Ngoại Ngữ</a></li>
+                            <li><a href="#">S&aacute;ch Tin Học</a></li>
+                            <li><a href="#">S&aacute;ch Trung Học - Tiểu Học</a></li>
+                            <li><a href="#">S&aacute;ch Thiếu Nhi</a></li>
+                            <li><a href="#">S&aacute;ch Th&#432;ờng Thức - &#272;ời Sống</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch B&aacute;n Chạy</a>
+                        <ul>
+                            <li><a href="#">Tất Cả S&aacute;ch Bán Chạy</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học Trong N&#432;ớc</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học N&#432;ớc Ngo&agrave;i</a></li>
+                            <li><a href="#">S&aacute;ch Chuy&ecirc;n Ng&agrave;nh Kỹ Thuật</a></li>
+                            <li><a href="#">S&aacute;ch Kinh Tế</a></li>
+                            <li><a href="#">Sách Kỹ Năng Sống</a></li>
+                            <li><a href="#">S&aacute;ch Ngoại Ngữ</a></li>
+                            <li><a href="#">S&aacute;ch Tin Học</a></li>
+                            <li><a href="#">S&aacute;ch Trung Học - Tiểu Học</a></li>
+                            <li><a href="#">S&aacute;ch Thiếu Nhi</a></li>
+                            <li><a href="#">S&aacute;ch Th&#432;ờng Thức - &#272;ời Sống</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Mới Ph&aacute;t H&agrave;nh</a>
+                        <ul>
+                            <li><a href="#">Tất Cả S&aacute;ch Mới Phát Hành</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học Trong N&#432;ớc</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học N&#432;ớc Ngo&agrave;i</a></li>
+                            <li><a href="#">S&aacute;ch Chuy&ecirc;n Ng&agrave;nh Kỹ Thuật</a></li>
+                            <li><a href="#">S&aacute;ch Kinh Tế</a></li>
+                            <li><a href="#">Sách Kỹ Năng Sống</a></li>
+                            <li><a href="#">S&aacute;ch Ngoại Ngữ</a></li>
+                            <li><a href="#">S&aacute;ch Tin Học</a></li>
+                            <li><a href="#">S&aacute;ch Trung Học - Tiểu Học</a></li>
+                            <li><a href="#">S&aacute;ch Thiếu Nhi</a></li>
+                            <li><a href="#">S&aacute;ch Th&#432;ờng Thức - &#272;ời Sống</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Sắp Ph&aacute;t H&agrave;nh</a>
+                        <ul>
+                            <li><a href="#">Tất Cả S&aacute;ch Sắp Phát Hành</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học Trong N&#432;ớc</a></li>
+                            <li><a href="#">S&aacute;ch V&#259;n Học N&#432;ớc Ngo&agrave;i</a></li>
+                            <li><a href="#">S&aacute;ch Chuy&ecirc;n Ng&agrave;nh Kỹ Thuật</a></li>
+                            <li><a href="#">S&aacute;ch Kinh Tế</a></li>
+                            <li><a href="#">Sách Kỹ Năng Sống</a></li>
+                            <li><a href="#">S&aacute;ch Ngoại Ngữ</a></li>
+                            <li><a href="#">S&aacute;ch Tin Học</a></li>
+                            <li><a href="#">S&aacute;ch Trung Học - Tiểu Học</a></li>
+                            <li><a href="#">S&aacute;ch Thiếu Nhi</a></li>
+                            <li><a href="#">S&aacute;ch Th&#432;ờng Thức - &#272;ời Sống</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">Sách Hay Miti Khuyên Đọc</a>
+                        <ul>
+                            <li><a href="#">Sách Giảm Giá</a></li>
+                            <li><a href="#">Sách Bán Chạy</a></li>
+                            <li><a href="#">S&aacute;ch Mới Phát Hành</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch V&#259;n Học Trong N&#432;ớc</a>
+                        <ul>
+                            <li><a href="#">Phê Bình Văn Học</a></li>
+                            <li><a href="#">Phóng Sự, Ký Sự</a></li>
+                            <li><a href="#">Sách Về Nhân Vật Văn Học</a></li>
+                            <li><a href="#">Thơ Ca</a></li>
+                            <li><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
+                            <li><a href="#">Tiểu Thuyết Lịch Sự</a></li>
+                            <li><a href="#">Truyện & Thơ Ca Dân Gian</a></li>
+                            <li><a href="#">Truyện Dài</a></li>
+                            <li><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
+                            <li><a href="#">Truyện Kiếm Hiệp</a></li>
+                            <li><a href="#">Truyện Ngắn - Tản Văn</a></li>
+                            <li><a href="#">Truyện Thiếu Nhi</a></li>
+                            <li><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                            <li><a href="#">Tự Truyện - Hồi Ký</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch V&#259;n Học N&#432;ớc Ngo&agrave;i</a>
+                        <ul>
+                            <li><a href="#">Cổ Tích & Thần Thoại</a></li>
+                            <li><a href="#">Phê Bình Văn Học</a></li>
+                            <li><a href="#">Phóng Sự, Ký Sự</a></li>
+                            <li><a href="#">Sách Về Nhân Vật Văn Học</a></li>
+                            <li><a href="#">Thơ Ca</a></li>
+                            <li><a href="#">Tiểu Thuyết Tình Yêu</a></li>
+                            <li><a href="#">Truyện Kiếm Hiệp - Phiêu Lưu</a></li>
+                            <li><a href="#">Truyện Lịch Sử</a></li>
+                            <li><a href="#">Truyện Ngắn</a></li>
+                            <li><a href="#">Truyện Thiếu Nhi</a></li>
+                            <li><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                            <li><a href="#">Truyện Viễn Tưởng</a></li>
+                            <li><a href="#">Tự Truyện - Hồi Ký</a></li>
+                            <li><a href="#">Tiểu Thuyết Ngôn Tình</a></li>
+                            <li><a href="#">Tiểu Thuyết Đam Mỹ</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Chuy&ecirc;n Ng&agrave;nh</a>
+                        <ul>
+                            <li><a href="#">Âm Nhạc, Mỹ Thuật</a></li>
+                            <li><a href="#">Chính Trị, Triết Học, Pháp Luật</a></li>
+                            <li><a href="#">Công Nghệ Sinh Học</a></li>
+                            <li><a href="#">Công Nghệ Thông Tin</a></li>
+                            <li><a href="#">Xây Dựng, Kiến Trúc</a></li>
+                            <li><a href="#">Khoa Học Xã Hội</a></li>
+                            <li><a href="#">Cơ Khí</a></li>
+                            <li><a href="#">Điện, Điện Tử</a></li>
+                            <li><a href="#">Nông Lâm Ngiệp</a></li>
+                            <li><a href="#">Thể Thao</a></li>
+                            <li><a href="#">Y Học</a></li>
+                            <li><a href="#">Các Chủ Đề Khác</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Kinh Tế</a>
+                        <ul>
+                            <li><a href="#">Marketing - Bán Hàng</a></li>
+                            <li><a href="#">Ngoại Thương</a></li>
+                            <li><a href="#">Nhân Sự & Việc Làm</a></li>
+                            <li><a href="#">Nhân Vật & Bài Học Kinh Doanh</a></li>
+                            <li><a href="#">Phân Tích & Môi Trường Kinh Tế</a></li>
+                            <li><a href="#">Quản Trị - Lãnh Đạo</a></li>
+                            <li><a href="#">Tài Chính - Tiền Tệ</a></li>
+                            <li><a href="#">Tài Chính - Kế Toán</a></li>
+                            <li><a href="#">Văn Bản Luật</a></li>
+                            <li><a href="#">Đầu Tư & Chứng Khoán</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">Sách Kỹ Năng Sống</a>
+                        <ul>
+                            <li><a href="#">Sách Học Làm Người</a></li>
+                            <li><a href="#">Danh Nhân Văn Hóa</a></li>
+                            <li><a href="#">Hồi Ký</a></li>
+                            <li><a href="#">Nhà Khoa Học</a></li>
+                            <li><a href="#">Triết Gia, Chính Trị Gia, Nhà Quân Sự</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Ngoại Ngữ</a>
+                        <ul>
+                            <li><a href="#">Tiếng Anh</a></li>
+                            <li><a href="#">Tiếng Trung</a></li>
+                            <li><a href="#">Tiếng Nhật</a></li>
+                            <li><a href="#">Tiếng Hàn</a></li>
+                            <li><a href="#">Tiếng Pháp</a></li>
+                            <li><a href="#">Các Ngoại Ngữ Khác</a></li>
+                            <li><a href="#">Từ Điển</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Tin Học</a>
+                        <ul>
+                            <li><a href="#">Tin Học Văn Phòng</a></li>
+                            <li><a href="#">Tin Học Cơ Bản</a></li>
+                            <li><a href="#">Internet - Mạng</a></li>
+                            <li><a href="#">Hệ Điều Hành</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Trung Học - Tiểu Học</a>
+                        <ul>
+                            <li><a href="#">Cấp I</a></li>
+                            <li><a href="#">Cấp II</a></li>
+                            <li><a href="#">Cấp III</a></li>
+                            <li><a href="#">Luyện Thi Đại Học</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Thiếu Nhi</a>
+                        <ul>
+                            <li><a href="#">Khoa Học Tự Nhiên</a></li>
+                            <li><a href="#">Khoa Học Xã Hội</a></li>
+                            <li><a href="#">Âm Nhạc, Mỹ Thuật</a></li>
+                            <li><a href="#">Sách Ngoại Ngữ</a></li>
+                            <li><a href="#">Truyện Thiếu Nhi</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="MenuBarItemSubmenu"  href="#">S&aacute;ch Th&#432;ờng Thức - &#272;ời Sống</a>
+                        <ul>
+                            <li><a href="#">Bí Quyết Làm Đẹp</a></li>
+                            <li><a href="#">Hạnh Phúc Gia Đình</a></li>
+                            <li><a href="#">Nữ Công Gia Chánh</a></li>
+                            <li><a href="#">Nuôi Dạy Con</a></li>
+                            <li><a href="#">Sách Nấu Ăn</a></li>
+                            <li><a href="#">Cây, Cá Cảnh, Vật Nuôi</a></li>
+                            <li><a href="#">Quan Hệ Giới Tính</a></li>
+                            <li><a href="#">Cẩm Nang Tuổi Mới Lớn</a></li>
+                            <li><a href="#">Sinh Lý Học</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Search-->
+
+        <div class="col-md-7">
+            <div class="input-group" style="margin-top: 8px">
+                <input type="text" class="form-control" placeholder="Nhập tên sách/tên tác giả cần tìm">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Tìm Sách</button>
+      </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+
+
+        <!-- Giỏ hàng-->
+        <div class="col-md-2">
+            <a href="ShoppingCart.html" target="_blank">
+                <button style="background-color: #FC034F;color: white;border-radius: 5px" type="button" class="btn btn-default navbar-btn"><i class="fa fa-shopping-cart fa-lg"></i><b> GIỎ HÀNG</b></button>
+            </a>
+        </div>
+    </div>
+    <div style="margin-top: 10px" class="row">
+        <ul class="breadcrumb-over">
+            <li> <a href="#">Trang chủ</a> </li> &nbsp;&raquo;
+            <li> <a href="#"> Nxb Trẻ </a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-md-3 ">
+            <ul class="list-unstyled menu">
+                <li class="boder  non"> <span> SÁCH BÁN CHẠY </span></li>
+                <li class="boder"><a href="#"> Sách Bán Chạy Hàng Tuần </a>  </li>
+                <li class="boder"><a href="#"> Sách Bán Chạy Trong Tháng</a> </li>
+                <li class="boder"><a href="#"> Sách Bán Chạy Của Năm </a>   </li>
+                <li class="boder non"><span> DANH MỤC </span></li>
+                <li class="boder"><a href="#"> Sách Ngoại Văn </a> </li>
+                <li class="boder"><a href="#"> Sách Kinh Tế </a>  </li>
+                <li class="boder"><a href="vanhoctrongnuoc.html"> Sách Văn Học Trong Nước</a> </li>
+                <li class="boder"><a href="#"> Sách Giáo Khoa-Giáo Trình</a> </li>
+                <li class="boder"><a href="#"> Sách Khoa Học Thần Bí</a></li>
+                <li class="boder"><a href="#"> Sách Thiếu Nhi</a> </li>
+                <li class="boder"><a href="#"> Sách Phát Triển Bản Thân</a></li>
+                <li class="boder"><a href="#"> Sách Tin Học-Ngoại Ngữ</a> </li>
+                <li class="boder"><a href="#"> Sách Chuyên Ngành</a> </li>
+                <li class="boder"><a href="#"> Sách Thường Thức-Đời Sống</a></li>
+                <li class="boder"><a href="#"> Sách Cao Đẵng-Đại Học</a> </li>
+                <li class="boder"><a href="#"> Tạp Chí</a> </li>
+                <li class="boder"><a href="#"> Văn Phòng Phẩm</a> </li>
+                <li class="boder"><a href="#"> Sách Hay Giáng Sinh</a> </li>
+                <li class="boder"><a href="#"> Sách Tin Học-Ngoại Ngữ</a> </li>
+                <li class="boder non"><span> TÁC GIẢ </span></li>
+                <li class="boder"><a href="#"> Nguyễn Nhật Ánh </a> </li>
+                <li class="boder"><a href="#"> Nguyễn Thị Thu </a>  </li>
+                <li class="boder"><a href="#"> Sara Tmas</a> </li>
+                <li class="boder"><a href="#"> Bình Nguyễn</a> </li>
+                <li class="boder"><a href="#"> Gào</a></li>
+                <li class="boder"><a href="#"> Bubu Hương</a> </li>
+                <li class="boder"><a href="#"> Nguyễn Ngọc Tư</a></li>
+                <li class="boder"><a href="#"> J.K.Rowling</a> </li>
+                <li class="boder"><a href="#"> Dương Thụy</a> </li>
+                <li class="boder"><a href="#"> First News</a></li>
+                <li class="boder"><a href="#"> Ibuka Masaru</a> </li>
+                <li class="boder"><a href="#"> Phạm Thị Thanh Vân</a> </li>
+                <li class="boder"><a href="#"> Linh Trang</a> </li>
+                <li class="boder"><a href="#"> Trần Vỹ</a> </li>
+                <li class="boder"><a href="#"> Hachun Lyonnet</a> </li>
+                <li class="boder non"> <a href="#"> &raquo;&raquo;&nbsp; <small>Xem tất cả </small></a> </li>
+
+            </ul>
+        </div>
+        <div class="col-md-9">
+
+            <div class="row">
+                <div class="col-md-12 tieude" style="border: 1px solid #e6e6e6;border-radius: 5px" >
+                    <h4> Thông Tin Nhà Phát Hành Nxb Trẻ </h4>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img style="margin-left: 10px;margin-top: 10px;border: 1px solid #e6e6e6;border-radius: 5px" width="120" src="img/nxb-tre.jpg" alt=""/>
+                        </div>
+                        <div class="col-md-10">
+                            <p style="margin-top: 10px">Nhà xuất bản Trẻ xuất bản sách và văn hóa phẩm các loại, phục vụ chủ yếu cho thanh niên, thiếu nhi, tổ chức Đoàn các cấp của thành phố, đồng thời phục vụ bạn đọc trong và ngoài nước. Đây là một trong những đơn vị sớm nhất kí và tuân thủ Công ước Berne năm 2003.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 tieude" >
+                    <h4> Sách Của Nhà Phát Hành Nxb Trẻ </h4>
+                </div>
+                <!-- Single button -->
+                <div class="btn-group" style="z-index: 100000;margin-left: 30px">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sắp xếp theo trạng thái sách <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Mới nhất</a></li>
+                        <li><a href="#">A đến Z</a></li>
+                        <li><a href="#">Z đến A</a></li>
+                        <li><a href="#">Giá thấp đến cao</a></li>
+                        <li><a href="#">Giá cao đến thấp</a></li>
+                        <li><a href="#">Giảm giá thấp đến cao</a></li>
+                        <li><a href="#">Giảm giá cao đến thấp</a></li>
+                        <li><a href="#">Bán chạy nhất</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2"><a href="cho%20toi%20mot%20ve%20di%20tuoi%20tho.html">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/chotoive.jpg" width="130" height="200"></a>
+                </div>
+                <div class="col-md-8 ">
+                    <a href="cho%20toi%20mot%20ve%20di%20tuoi%20tho.html"> Cho Tôi Xin Một Vé Đi Tuổi Thơ</a><br>
+                    <span> <small>Nguyễn Nhật Ánh</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 50.000đ</span> <span> <small><del> 63.000đ</del></small></span>
+                    <p>
+                        Truyện Cho tôi xin một vé đi tuổi thơ là sáng tác mới nhất của nhà văn Nguyễn Nhật Ánh. Nhà văn mời người đọc lên chuyến tàu quay ngược trở lại thăm tuổi thơ và tình bạn dễ thương của 4 bạn nhỏ. Những trò chơi dễ thương thời bé, tính cách ... &raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="images/conchonho.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="Con%20cho%20nho%20mang%20gio%20hoa%20hong.html"> Chú Chó Nhỏ Mang Giỏ Hoa Hồng</a><br>
+                    <span> <small>Nguyễn Nhật Ánh</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 63.000đ</span> <span> <small><del> 90.000đ</del></small></span>
+                    <p>
+                        Con chó nhỏ mang giỏ hoa hồng” là tác phẩm mới nhất của nhà văn chuyên viết cho thanh thiếu niên Nguyễn .
+                        Nhật Ánh, nối tiếp sau Bảy bước tới mùa hè, Tôi thấy hoa vàng trên cỏ xanh… gây sóng gió thị trường sách năm
+                        2015.5 chương sách với 86 câu ...&raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/nhungcauchuyen.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="nha%20gia%20kim.html"> Những Câu Chuyện Về Tình Bạn</a><br>
+                    <span> <small>Nguyễn Nhật Ánh</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 12.000đ</span> <span> <small><del> 15.000đ</del></small></span>
+                    <p>
+                        Khi được hỏi mình mong muốn điều gì nhất cho con, cha mẹ thường trả lời muốn con mình trở thành một người tốt.Nếu muốn con trẻ có được những đức tính mà ta khâm phục, thì ta phải dạy cho trẻ những giá trị ấy. Có cách nào tốt hơn là làm ...&raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/Toilabeto.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="#"> Tôi Là Bêtô</a><br>
+                    <span> <small>Nguyễn Nhật Ánh</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 132.000đ</span> <span> <small><del> 160.000đ</del></small></span>
+                    <p>
+                        Truyện Tôi là Bêtô là sáng tác mới nhất của nhà văn Nguyễn Nhật Ánh được viết theo phong cách hoàn toàn khác so với những tác phẩm trước đây của ông. Những mẩu chuyện, hay những phát hiện của chú chó Bêtô đầy thú vị, vừa hài hước, vừa ...&raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/caisanvuong.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="#"> Cái Sân Vuông Và Nơi Thờ Phật</a><br>
+                    <span> <small>Lữ</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 17.700đ</span> <span> <small><del> 59.000đ</del></small></span>
+                    <p>
+                        Cuốn sách là một hành trình chiêm nghiệm hạnh phúc khác của Lữ - một người có cơ hội sống với nhiều nền văn hóa khác nhau và tin “mỗi nền văn hóa đều có những vẻ đẹp đáng để cho ta noi theo và học hỏi” đồng thời luôn nhớ về gốc rễ ...&raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/thoinienthieu.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="#"> Thời Niên Thiếu Của Sherlock Holmes - Băng Đen</a><br>
+                    <span> <small>Andrew Lane</small></span><button type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Đặt Hàng Trước </button><br>
+                    <span style="color: red ; font-weight: bold;"> 79.000đ</span> <span> <small><del> 59.000đ</del></small></span>
+                    <p>
+                        Lấy ý tưởng từ nhân vật huyền thoại Sherlock Holmes, tác giả viết về những năm tháng thời niên thiếu của Sherlock, khi cậu tập tành quan sát, học hỏi kinh nghiệm điều tra từ anh trai và người đỡ đầu để có thể trở thành một thám tử dày dạn sau ...&raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row noidung">
+
+                <div class="col-md-2">
+                    <img style="cursor: pointer" src="img/anh%20sach%20trang%20con/dungbaogiodian.jpg" width="130" height="200">
+                </div>
+                <div class="col-md-8 ">
+                    <a href="#"> Đừng Bao Giờ Đi Ăn Một Mình</a><br>
+                    <span> <small>Tahl Raz, Keith Ferrazzi </small></span><button  type="button" style="background-color: #00afe9;border: none" class="btn btn-success pull-right"><i class="fa fa-shopping-cart fa-lg">&nbsp;</i>Mua Ngay </button><br>
+                    <span style="color: red ; font-weight: bold;"> 132.000đ</span> <span> <small><del> 160.000đ</del></small></span>
+                    <p>
+                        Đừng Bao Giờ Đi Ăn Một Mình - Và Những Bí Mật Dẫn Đến Thành Công, Thông Qua Xây Dựng Mối Quan Hệ Bạn mong muốn đi tắt đón đầu?Bạn muốn vững bước đến thành công?Công thức để làm được điều này, theo lời bậc thầy về kết nối là Keith ...  &raquo;&raquo;<a href="#"> Xem chi tiết</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <br><br><br><br>
+                    </div>
+                    <div class="col-md-3">
+                        <font style="font-size: large;;float: left;margin-left: 30px">Trang 1/251</font>
+                    </div>
+                    <div style="margin-top: -50px;margin-left: 20px;border-bottom: none" class="col-md-9 col-lg-offset-6 pull-right">
+                        <ul class="pagination" style="border: none;border-bottom: none">
+                            <li > <a href="#" > &laquo;Previous</a> </li>
+                            <li class="active" > <a href="#"> 1</a> </li>
+                            <li> <a href="sach%20ban%20chay%20trang%202.html"> 2</a> </li>
+                            <li> <a href="sach%20ban%20chay%20trang%203.html"> 3</a> </li>
+                            <li> <a href="#"> 4</a> </li>
+                            <li> <a href="#"> 5</a> </li>
+                            <li> <a href="#"> 6</a> </li>
+                            <li> <a href="#"> 7</a> </li>
+                            <li> <a href="#"> 8</a> </li>
+                            <li> <a href="#"> 9</a> </li>
+                            <li> <a href="#"> 10</a> </li>
+                            <li> <a href="sach%20ban%20chay%20trang%202.html"> Next &raquo;</a> </li>
+                            <li> <a href="#"> 11-20</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer-->
+    <div class="row" id="footer2">
+        <div class="col-md-3 col-sm-3 col-xs-3" id="aboutme">
+            <h4>VỀ CÔNG TY</h4>
+            <a href="#">   <p>Giới Thiệu Công Ty</p></a>
+            <a href="#">   <p>Tuyển Dụng</p></a>
+            <a href="#">   <p>Chương Trình Đại Lý</p></a>
+            <a href="#">   <p>Chính Sách Bảo Mật</p></a>
+            <a href="chinh%20sach%20doi%20tra.html">   <p>Chính Sách Đổi Trả</p></a>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3" id="help">
+            <h4>TRỢ GIÚP</h4>
+            <a href="#">  <p>Quy Định Sử Dụng</p></a>
+            <a href="#">  <p>Hướng Dẫn Mua Hàng</p></a>
+            <a href="#">  <p>Phương Thức Thanh Toán</p></a>
+            <a href="#">  <p>Bảng Giá Vận Chuyển</p></a>
+            <a href="#">  <p>Bọc Sách Bằng Bìa Plastic</p></a>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3" id="keepupwith">
+            <h4>FACEBOOK</h4>
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <div class="fb-page" data-href="https://www.facebook.com/mitibookonline/?skip_nax_wizard=true" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mitibookonline/?skip_nax_wizard=true"><a href="https://www.facebook.com/mitibookonline/?skip_nax_wizard=true">Mitibook</a></blockquote></div></div>
+
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3" id="creditcard">
+
+
+            <div class="newsletter">
+                <form action="http://tiki.us1.list-manage.com/subscribe?u=f84bf8630f9ae8fa4881df494&amp;id=b92ac69021" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                    <h4 class="js-newsletter-toggle">
+                        Cập nhật khuyến mãi
+                        <a class="toggle">
+                            <i class="fa fa-angle-down"></i>
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </h4>
+                    <div class="form-group">
+                        <input style="width: 100%" type="email" placeholder="Email của bạn" required="" name="EMAIL" class="form-control" id="mce-EMAIL">
+                        <button style="width: 100%" class="form-control" id="mc-embedded-subscribe" name="subscribe" type="submit">
+                            Đăng ký <i class="fa fa-angle-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+            <!-- ảnh lên đầu trang-->
+            <div id="goTop">
+                <img width="55" style="margin-top: 40px;margin-left: 140px" src="img/gotop.PNG"/>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--menu-->
+    <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+    </script>
+
+    <!--Lên đầu trang-->
+    <script type="text/javascript">
+        $(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
+                else $('#goTop').fadeOut();
+            });
+            $('#goTop').click(function () {
+                $('body,html').animate({scrollTop: 0}, 'slow');
+            });
+        });
+    </script>
+</div>
+</body>
+</html>
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+            d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+            _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+        $.src="//v2.zopim.com/?3jtL68g2RW7OQBvG79bJb5eNzmIlYhOD";z.t=+new Date;$.
+                type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+<script src="js/shop.js"></script>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+
+	<style>
+	<![CDATA[
+	button.index > box { background: image(files/gui/index/btn_index.png); }
+	button.close > box { background: image(files/gui/index/btn_close.png); }
+	button.next > box { background: image(files/gui/index/btn_next.png); }
+	button.prev > box { background: image(files/gui/index/btn_prev.png); }
+	button.scroll_handle > box { background: image(files/gui/index/btn_scroll_handle.png); width: 15; height: 15; }
+	button.scroll_handle > box.over { background: image(files/gui/index/btn_scroll_handle1.png); }
+	button.element > box {
+		anchors: 0,0,pw,ph;
+	}
+	button.element > box.over {
+		background: color(0x330000FF);
+	}
+	button.element > box.down {
+		background: color(0x330000FF);
+	}
+	box.pagelink {
+		background: gradient(linear-vertical,0x7f999999,0x7f333333);
+	}
+	]]>
+	</style>
+	
+	<!-- Button for the navigation bar. Must be a button. Toggles visiblility of the index frame. -->
+	<button id="btn_index" title="localize(LNG_INDEX, Index)" style="common index"/>
+	
+	<!-- Actual frame that gets opened when the print button is clicked -->
+	<window id="indexframe" anchors="0,0,pw,ph" mouseenabled="true" style="container">
+		<button name="$btn_close$" title="localize(LNG_INDEX_CLOSE, Close)" style="common close" anchors="pw-w-5,5"/>
+		
+		<text anchors="25,35,pw-25,55" value="localize(LNG_INDEX_INFO, Jump to any page by clicking on it.)" style="info" background="gradient(linear-vertical,0x999999,0x666666)"/>
+		<!-- Pane with all the buttons representing the pages. -->
+		<scrollpane anchors="25,55,pw-25,ph-95" mousewheel="y" style="container">
+			<box anchors="25,0,pw-45,ph">
+				<box name="$viewport$" resize="true" maxwidth="pw">
+					<!-- This will be filled with the 'page_button' elements (see below) -->
+					<hflow name="elements" maxwidth="pmaxw"/>
+				</box>
+			</box>
+			
+			<!-- Buttons to navigate to pages of page thumbnails -->
+			<button name="btn_previous" style="common prev" anchors="0,ph/2" title="localize(LNG_INDEX_PREV, Previous pages)"/>
+			<button name="btn_next" style="common next" anchors="pw-w-20,ph/2" title="localize(LNG_INDEX_NEXT, Next pages)"/>
+			
+			<!-- Scrollbar -->
+			<scrollbar name="$scroll_y$" orientation="vertical" anchors="pw-15,0,pw,ph" background="gradient(linear-vertical,0x666666,0x4d4d4d)">
+				<button name="$scroll_handle$" width="15" height="15" style="scroll_handle"/>
+			</scrollbar>
+		</scrollpane>
+	</window>
+	
+	<!-- Template for a page element. Must be a toggle button (used to show selection state). -->
+	<button id="page_button" width="thumbw+20" height="thumbh+20" style="element">
+		<!-- This element (the element with this name) will be made visible if the button represents an even page. -->
+		<box name="if_even" anchors="0,5,pw-5,ph-5" style="pagelink"/>
+		<!-- This element (the element with this name) will be made visible if the button represents an odd page. -->
+		<box name="if_odd" anchors="5,5,pw,ph-5" style="pagelink"/>
+		<!-- Container for actual page thumbnail -->
+		<box name="thumb" anchors="10,10,pw-10,ph-10"/>
+		<!-- Overlay for page number -->
+		<box anchors="10,10,pw-10,ph-10" background="color(0x666666)" blendmode="hardlight">
+			<!-- Adjust the 'size' and 'height' attributes here if your pages are very large / small, making the numbers relatively small / large. -->
+			<text name="number" anchors="0,(ph-h)/2,pw" align="center" color="0x999999" size="40" font="Verdana" bold="true" height="55"/>
+		</box>
+	</button>
+</asul>

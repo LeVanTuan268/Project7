@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_FIRST_PAGE" label="First Page Button">الصفحة الأولى</langstring>
+	<langstring name="LNG_LAST_PAGE" label="Last Page Button">الصفحة الأخيرة</langstring>
+	<langstring name="LNG_PREV_PAGE" label="Previous Page Button">الصفحة السابقة</langstring>
+	<langstring name="LNG_NEXT_PAGE" label="Next Page Button">الصفحة التالية</langstring>
+	<langstring name="LNG_GOTO_PAGE" label="Page Number">انتقل الى صفحة $1</langstring>
+	<langstring name="LNG_GOTO_DIALOG_TIP" label="Goto Page tip">يرجى إدخال رقم الصفحة للانتقال إلى، ثم اضغط مفتاح الإدخال.</langstring>
+	<langstring name="LNG_FULLSCREEN" label="Fullscreen Button">تنشيط وضع ملء الشاشة (اختصارات لوحة المفاتيح قد لا تعمل في وضع ملء الشاشة)</langstring>
+	<langstring name="LNG_RESTORE" label="Exit fullscreen Button">وضع ملء الشاشة الخروج</langstring>
+	<langstring name="LNG_MUTE" label="Mute Button">أخرس</langstring>
+	<langstring name="LNG_UNMUTE" label="Unmute Button">غير صامت</langstring>
+	<langstring name="LNG_ZOOM_IN" label="ZoomIn Button">تكبير</langstring>
+	<langstring name="LNG_ZOOM_OUT" label="ZoomOut Button">تصغير</langstring>
+	<langstring name="LNG_ROTATE_RIGHT" label="Rotate clockwise Button">تدوير الكتاب في اتجاه عقارب الساعة</langstring>
+	<langstring name="LNG_ROTATE_LEFT" label="counterclockwise Button">تدوير الكتاب عكس</langstring>
+	<langstring name="LNG_THUMBNAIL" label="Thumbnails Button">المصغرات</langstring>
+	<langstring name="LNG_BOOKMARKS" label="Bookmarks Button">الإشارات المرجعية</langstring>
+	<langstring name="LNG_PRINT" label="Print Button">طباعة</langstring>
+	<langstring name="LNG_DRAW" label="Draw Button">رسم</langstring>
+	<langstring name="LNG_TEXT_SELECT" label="Text Selecting Button">اختر النص</langstring>
+	<langstring name="LNG_TOC" label="TOC Button">جدول المحتويات</langstring>
+	<langstring name="LNG_SHARE" label="Share Button">حصة</langstring>
+	<langstring name="LNG_SEARCH" label="Search Button">بحث</langstring>
+	<langstring name="LNG_DOWNLOAD" label="Download Button">تحميل</langstring>
+	<langstring name="LNG_ABOUT" label="About Button">حول</langstring>
+	<langstring name="LNG_Exit" label="Exit Button">خروج</langstring>
+	<langstring name="LNG_BOOKCASE" label="Bookcase">خزانة الكتب</langstring>
+	<langstring name="LAN_PLAY" label="About Button">لعب</langstring>
+	<langstring name="LAN_STOP" label="Exit Button">توقف</langstring>
+</lang>

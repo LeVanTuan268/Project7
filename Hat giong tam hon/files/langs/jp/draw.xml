@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_DRAWING" label="Toggle drawing tools">描画ツールを切り替える</langstring>
+	<langstring name="LNG_DRAWING_PEN_THICKNESS" label="Line thickness">線の太さ</langstring>
+	<langstring name="LNG_DRAWING_PEN_ALPHA" label="Opacity">不透明</langstring>
+	<langstring name="LNG_DRAWING_PEN_DYNAMICS" label="Dynamic line thickness">動的な線の太さ</langstring>
+	<langstring name="LNG_DRAWING_PEN_COLOR" label="Color">カラー</langstring>
+	<langstring name="LNG_DRAWING_CLEAR" label="Clear drawing tip">明確な現在のページ。単一の行を削除Altキーを押したまま、それをクリックします.</langstring>
+	<langstring name="LNG_DRAWING_SAVE" label="Save changes">変更内容を保存します</langstring>
+	<langstring name="LNG_DRAWING_CLOSE" label="Close">クローズ</langstring>
+</lang>

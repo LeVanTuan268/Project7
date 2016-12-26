@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_PRINTPDF" label="Save as PDF">حفظ ك PDF</langstring>
+	<langstring name="LNG_PRINTPDF_CLOSE" label="Close">قريب</langstring>
+	<langstring name="LNG_PRINTPDF_INFO" label="Select pages tip">حدد الصفحات التي ترغب في حفظ كملف PDF من خلال النقر عليها.</langstring>
+	<langstring name="LNG_PRINTPDF_INFO2" label="Manually input page numbers">أو أدخل أرقام الصفحات يدويا. أرقام منفصلة باستخدام الفواصل المنقوطة. تحديد نطاقات باستخدام 'من ل': على سبيل المثال 10-20.</langstring>
+	<langstring name="LNG_PRINTPDF_PREV" label="Previous pages">الصفحات السابقة</langstring>
+	<langstring name="LNG_PRINTPDF_NEXT" label="Next pages">الصفحات التالية</langstring>
+	<langstring name="LNG_PRINTPDF_PRINT" label="Save selected pages">حفظ صفحات مختارة</langstring>
+	<langstring name="LNG_PRINTPDF_SAVE_COMPLETE" label="Save complete book">حفظ كتاب كامل (يتجاهل اختيار)</langstring>
+	<langstring name="LNG_PRINTPDF_TOO_MANY_PAGES" label="Warning tip"><![CDATA[<b>تحذير</b><br/>بسبب القيود التقنية أنه ليس من الممكن لانقاذ أكثر من <b>$1</b> صفحات في وقت واحد. يرجى تقليل اختيارك (قمت بتحديدها حاليا <b>$2</b> صفحات).<br/> بدلا من ذلك، حفظ الكتاب كله عن طريق النقر على زر "حفظ كامل كتاب '.]]></langstring>
+</lang>

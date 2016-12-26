@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<asul>
+<style><![CDATA[
+
+]]>
+</style>
+
+
+<window anchors="0,0,pw,ph"  background="color(0x33000000)" id="container" mouseenabled="true">
+<box anchors="(pw-w)/2,(ph-h)/2" name="bContent" width="450" height="300" background="image(files/assets/skin/window/winbg.png)" scale9grid="25, 55,26,56" style="container">
+		<box anchors="0,0,pw,45" name="$drag_handle$">
+			<box anchors="5,6" width="24" height="25" name="bico" background="image(files/assets/skin/window/share.png)"/>
+			<text name="title" anchors="30,9,100" value="localize(LNG_SHARE_TITLE, Share)" style="title"></text>
+			<button anchors="pw-26,6" name="$btn_close$" title="localize(LNG_CLOSE, Close)" width="24" height="24" style="btn_close"/>
+		</box>
+		
+		<box anchors="0,45,pw/2,ph-37" name="bcenter_left">
+			<box anchors="24,14,40,30" background="image(files/assets/skin/share/email.png)"/>
+			<text anchors="45,12" value="localize(LNG_SHARE_FRIEND, Send to a friend)"  style="content"/>
+			<box anchors="40,40,pw-10,62" style="input">
+				<text anchors="0,0,pw,ph" value="localize(LNG_SHARE_SUBJECT, Subject)"  style="content" name="tSubject"/>
+			</box>
+			<box anchors="40,65,pw-10,87" style="input">
+				<text anchors="0,0,pw,ph" value="localize(LNG_SHARE_TOEMAIL, to e-mail address)"  style="content" name="tEmail"/>
+			</box>
+			<box anchors="40,90,pw-10,ph-50" style="input">
+				<text anchors="0,0,pw,ph" value="localize(LNG_SHARE_NOTE, Your Notes)"  style="content" multiline="true" name="tBody"/>
+			</box>
+			<button anchors="pw-90,ph-40" width="80" height="28" name="btnSendEMail" style="btn_common">
+				<text anchors="0,3,pw,ph" align="center" value="localize(LNG_SHARE_SEND, Send)" color="0" size="13" style="content"/>
+			</button>
+		</box>
+		<box anchors="pw/2,45,pw,ph-37" name="bcenter_right">
+			<box anchors="24,14,40,30" background="image(files/assets/skin/share/bookmarks/bookmarks.png)"/>
+			<text anchors="45,12" value="localize(LNG_SHARE_BOOKMARK, Social Bookmark)" style="content"/>
+
+			<button anchors="24,40" width="80" height="22" name="btnFacebook">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/facebook.jpg)"/>
+				<text anchors="18" value="Facebook" style="content"/>
+			</button>
+			<button anchors="110,40" width="80" height="22" name="btnTwitter">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/twitter.png)"/>
+				<text style="content" anchors="18" value="Twitter"/>
+			</button>
+			
+			<button anchors="24,70" width="80" height="22" name="btnYahoo">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/yahoo.png)"/>
+				<text style="content" anchors="18" value="Yahoo"/>
+			</button>
+			<button anchors="110,70" width="80" height="22" name="btnGoogle">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/google.png)"/>
+				<text style="content" anchors="18" value="Google"/>
+			</button>
+			
+			<button anchors="24,100" width="80" height="22" name="btnLinkedin">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/linkedin.png)"/>
+				<text style="content" anchors="18" value="Linkedin"/>
+			</button>
+			<button anchors="110,100" width="80" height="22" name="btnAsk">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/ask.png)"/>
+				<text style="content" anchors="18" value="Ask"/>
+			</button>
+			
+			<button anchors="24,130" width="80" height="22" name="btnDigg">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/digg.jpg)"/>
+				<text style="content" anchors="18" value="Digg"/>
+			</button>
+			<button anchors="110,130" width="80" height="22" name="btnLive">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/live.png)"/>
+				<text style="content" anchors="18" value="Live"/>
+			</button>
+			
+			<button anchors="24,160" width="80" height="22" name="btnMixx">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/mixx.png)"/>
+				<text style="content" anchors="18" value="Mixx"/>
+			</button>
+			<button anchors="110,160" width="80" height="22" name="btnMore">
+				<box anchors="0,0,16,16" background="image(files/assets/skin/share/more.png)"/>
+				<text style="content" anchors="18" value="More"/>
+			</button>
+		</box>
+		
+		<box anchors="0,ph-45,pw,ph" name="bbottom">
+			<text anchors="5,10" value="localize(LNG_SHARE_LINK, Link)" color="0" size="13" />		
+			<box anchors="45,8,pw-100,ph-11" style="input">
+				<text style="content" anchors="3,3,pw,ph" color="0" size="11" name="tLink"/>
+			</box>
+			<button anchors="pw-90,7" width="80" height="28" name="btnCopy" style="btn_common">
+			  <text anchors="0,3,pw,ph" align="center" value="localize(LNG_SHARE_COPY, Copy)" color="0" size="13" style="content"/>	
+			</button>
+		</box>
+</box>
+</window>
+</asul>

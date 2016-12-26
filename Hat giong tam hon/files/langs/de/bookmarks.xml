@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<langstring name="LNG_BOOKMARK_TITLE" label="Bookmarks Title">Lesezeichen</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE" label="Delect">Löschen dieses Lesezeichen</langstring>
+	<langstring name="LNG_BOOKMARK_ADD" label="Add bookmark">Lesezeichen hinzufügen</langstring>
+	<langstring name="LNG_BOOKMARK_OK" label="OK">OK</langstring>
+	<langstring name="LNG_BOOKMARK_CANCEL" label="Cancel">stornieren</langstring>
+	<langstring name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page">Seite $1</langstring>
+	<langstring name="LNG_BOOKMARK_COLOR" label="Random color">Gelegentliche Farbe</langstring>
+	<langstring name="LNG_BOOKMARK_ADD_FLOAT" label="Add Button">hinzufügen</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE_FLOAT" label="Delete Button">löschen</langstring>
+	<langstring name="LNG_BOOKMARK_UPDATE_FLOAT" label="Update Button">Aktualisierung</langstring>
+	<langstring name="LNG_BOOKMARK_CLOSE_FLOAT" label="Close Button">schließen</langstring>
+	<langstring name="LNG_BOOKMARK_PAGE_FLOAT" label="Page Title">Seite</langstring>
+	<langstring name="LNG_BOOKMARK_P_FLOAT" label="Pagination">p.</langstring>
+</lang>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	<style>
+	<![CDATA[
+
+	]]>
+	</style>
+	
+	<box id="container" anchors="50, 30, 320, ph-75">
+		<box anchors="0,40,pw,ph" background="image(files/assets/skin/bg-left.png)"/>
+
+		<box id="top" anchors="4,0,pw-4,40" style="common innertop" scale9grid="6,6,8,8">
+			<box anchors="5,6" width="24" height="25" background="image(files/assets/skin/window/thumbnails.png)" />
+			<text anchors="35,9" name="title" value="localize(LNG_TITLE, Thumbnails)" style="title" />
+			<button onclick="megazine.go_thumbnails()" anchors="pw-w-10, (ph-h)/2" name="$scroll_handle$"  width="24" height="24" style="btn_close"/>
+		</box> 
+		<!-- change this anchors if using other layout -->
+		<box name="contents" anchors="14,40+4,pw-14,ph-11" background="color(0xDF212735)"> 
+			<button name="btn_up" anchors="0,0,pw" height="26" style="btn_up" background="color(0xB2BCC4DE)"/>
+			<scrollpane name="scrollpane" anchors="0,26,pw,ph-26" mousewheel="y" align="top">
+				<box maxwidth="pw" name="$viewport$" resize="true">
+					<hflow maxwidth="pmaxw" name="elements"/>
+				</box>
+			</scrollpane>
+			<button name="btn_down" anchors="0,ph-26,pw" height="26" style="btn_down" background="color(0xB2BCC4DE)"/>
+		</box>
+	</box>	
+	
+	<togglebutton width="120" height="150" id="content">
+		<box name="$btn_toggled$" background="color(0x5AB8BFDB)"/>	
+		
+		<box anchors="0,5,pw-5,ph-5" name="if_even" style="pagelink"/>
+		<box anchors="5,5,pw,ph-5" name="if_odd" style="pagelink"/>
+		<box anchors="10,10,pw-10,ph-10" name="thumb"/>
+		<box anchors="10,10,pw-10,ph-10" background="color(0x666666)" blendmode="hardlight">
+		<text font="Verdana, Helvetica, Arial, _sans" align="center" anchors="0,(ph-h)/2,pw" bold="true" color="0xffffff" height="55" name="number" size="40"/>
+		</box>
+
+	</togglebutton>
+
+</asul>

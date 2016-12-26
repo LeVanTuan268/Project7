@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<langstring name="LNG_FIRST_PAGE" label="First Page Button">先頭ページ</langstring>
+	<langstring name="LNG_LAST_PAGE" label="Last Page Button">最終ページ</langstring>
+	<langstring name="LNG_PREV_PAGE" label="Previous Page Button">前のページ</langstring>
+	<langstring name="LNG_NEXT_PAGE" label="Next Page Button">次のページ</langstring>
+	<langstring name="LNG_GOTO_PAGE" label="Page Number">後藤ページ $1</langstring>
+	<langstring name="LNG_GOTO_DIALOG_TIP" label="Goto Page tip">にジャンプしたページの番号を入力してください、enterキーを押します.</langstring>
+	<langstring name="LNG_FULLSCREEN" label="Fullscreen Button">（キーボードショートカットは、フルスクリーンモードで動作しない場合があります）、フルスクリーンモードを有効にする</langstring>
+	<langstring name="LNG_RESTORE" label="Exit fullscreen Button">退出フルスクリーンモード</langstring>
+	<langstring name="LNG_MUTE" label="Mute Button">ミュート</langstring>
+	<langstring name="LNG_UNMUTE" label="Unmute Button">ミュートを解除する</langstring>
+	<langstring name="LNG_ZOOM_IN" label="ZoomIn Button">ズームイン</langstring>
+	<langstring name="LNG_ZOOM_OUT" label="ZoomOut Button">ズームアウトする</langstring>
+	<langstring name="LNG_ROTATE_RIGHT" label="Rotate clockwise Button">この本を時計回りに回転させる</langstring>
+	<langstring name="LNG_ROTATE_LEFT" label="counterclockwise Button">反時計回りに本を回転させる</langstring>
+	<langstring name="LNG_THUMBNAIL" label="Thumbnails Button">サムネイル</langstring>
+	<langstring name="LNG_BOOKMARKS" label="Bookmarks Button">ブックマーク</langstring>
+	<langstring name="LNG_PRINT" label="Print Button">印刷</langstring>
+	<langstring name="LNG_DRAW" label="Draw Button">描く</langstring>
+	<langstring name="LNG_TEXT_SELECT" label="Text Selecting Button">テキストが選択</langstring>
+	<langstring name="LNG_TOC" label="TOC Button">目次</langstring>
+	<langstring name="LNG_SHARE" label="Share Button">シェア</langstring>
+	<langstring name="LNG_SEARCH" label="Search Button">検索</langstring>
+	<langstring name="LNG_DOWNLOAD" label="Download Button">ダウンロード</langstring>
+	<langstring name="LNG_ABOUT" label="About Button">約</langstring>
+	<langstring name="LNG_Exit" label="Exit Button">出口</langstring>
+	<langstring name="LNG_BOOKCASE" label="Download Button">本棚</langstring>
+	<langstring name="LAN_PLAY" label="About Button">プレイ</langstring>
+	<langstring name="LAN_STOP" label="Exit Button">停止</langstring>
+</lang>

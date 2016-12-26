@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<langstring name="LNG_ZOOM_OUT" label="Zoom Out">تصغير</langstring>
+	<langstring name="LNG_ZOOM_SLIDE" label="Zoom slider tip">الشريحة للتحكم في مستوى التكبير</langstring>
+	<langstring name="LNG_ZOOM_IN" label="Zoom in">تكبير</langstring>
+</lang>

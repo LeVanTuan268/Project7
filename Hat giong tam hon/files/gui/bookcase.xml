@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	<style>
+	<![CDATA[
+
+	}
+	]]>
+	</style>
+	
+	<box id="container" anchors="50, 30, 200, ph-75">
+		<box anchors="0,40,pw,ph" background="image(files/assets/skin/bg-left.png)"/>
+		
+		<box id="top" anchors="4,0,pw-4,40" style="common innertop">
+			<box anchors="5,6" width="24" height="25" background="image(files/assets/skin/window/bookcase.png)" />
+			<text name="title" anchors="35,9" value="localize(LNG_BOOKCASE_TITLE, Bookcase)" style="title" />
+			<button onclick="megazine.go_bookcase()" anchors="120, (ph-h)/2" name="$scroll_handle$" width="24" height="24" style="btn_close"/>
+		</box> 		
+		
+		<!-- change this anchors if using other layout -->
+		<box name="contents" anchors="10,44,pw-9,ph-13" background="color(0xDF212735)"> 
+			<button name="btn_up" anchors="0,0,pw" height="26" style="btn_up" background="color(0xB2BCC4DE)"/>
+			<scrollpane name="scrollpane" anchors="0,26,pw,ph-26" mousewheel="y" align="top">
+				<box maxwidth="pw" name="$viewport$" resize="true">
+					<hflow maxwidth="pmaxw" name="elements"/>
+				</box>
+			</scrollpane>
+			<button name="btn_down" anchors="0,ph-26,pw" height="26" style="btn_down" background="color(0xB2BCC4DE)"/>
+		</box>
+	</box>	
+	
+	<button width="120" height="150" id="content">
+		<box name="$up$" anchors="10,10,pw-10,ph-10" background="color(0x5AB8BFDB)"/>	
+		<box name="$down$" anchors="10,10,pw-10,ph-10" background="color(0x5AB8BFDB)"/>
+		<box name="$over$" anchors="5,5,pw-5,ph-5" background="color(0x5AB8BFDB)"/>
+	
+		<box anchors="0,5,pw-5,ph-5" name="if_even" style="pagelink"/>
+		<box anchors="5,5,pw,ph-5" name="if_odd" style="pagelink"/>
+		<box anchors="10,10,pw-10,ph-10" name="thumb"/>
+		<box anchors="10,10,pw-10,ph-10" background="color(0x666666)" blendmode="hardlight">
+			<box anchors="0,ph-20,pw,ph" background="color(0x40ffffff)">
+				<text anchors="0,0,pw" name="text" align="center" style="content"/>
+			</box>
+		</box>
+
+	</button>
+
+</asul>

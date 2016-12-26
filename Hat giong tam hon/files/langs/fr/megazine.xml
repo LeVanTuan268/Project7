@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<langstring name="LNG_LANGUAGE_NAME" label="Language ToolTip">Française</langstring>
+	<langstring name="LNG_LOADING" label="Page Loading">chargement... $1%</langstring>
+	<langstring name="LNG_BOOKEDGE_PAGENUMBER" label="Page Number">Aller à la page $1</langstring>
+	<langstring name="LNG_OK" label="OK">bien</langstring>
+	<langstring name="LNG_CANCEL" label="Cancel">annuler</langstring>
+	<langstring name="LNG_YES" label="Yes">oui</langstring>
+	<langstring name="LNG_NO" label="No">aucun</langstring>
+	<langstring name="LNG_QUIT" label="Quit">quitter</langstring>
+	<langstring name="LNG_QUIT_TIP" label="Quit confirm">Etes-vous sûr de vouloir quitter?</langstring>
+</lang>

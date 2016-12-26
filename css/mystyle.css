@@ -1,0 +1,362 @@
+#logo{
+    height: 100px;
+}
+#intro{
+    height: 100px;
+    line-height: 100px;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+#login{
+    height: 100px;
+    width: 170px;
+    line-height: 13px;
+    padding-top: 30px;
+    color: #6b6b6b;
+}
+#login a{
+    text-decoration: none;
+}
+#login a:hover{
+    color: #fc034f;
+}
+#login a{
+    color: #00afe9;
+}
+
+
+
+/*<!--Menu - Search - Item-->*/
+#item div{
+    background-color: #fc034f;
+    width: 200px;
+    color: white;
+    padding-top: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    /*padding-left: 30px;*/
+    border: 1px solid #fc034f;
+    border-radius: 8px;
+}
+
+#header2{
+    background-color: #00afe9;
+    width: 102%;
+    display: block;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*?? bóng cho menu*/
+    /*position: fixed; /!*Cho menu c? ??nh 1 v? trí v?i top và left*!/*/
+    /*position: relative;*/
+
+    /*z-index: 100000000; /!*Hi?n th? l?p trên cùng*!/*/
+
+}
+.fixed { position:fixed;}
+#menu{
+    color: white;
+    padding-left: 50px;
+    padding-top: 2px;
+
+
+}
+#search{
+    padding-top: 6px;
+}
+
+.anhsachbanchay{
+    float: left;
+    margin-right: 20px;
+}
+.noidungsachbanchay{
+
+}
+.sachbanchay{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer2 a{
+    color: black;
+    text-decoration: none;
+}
+#footer2 a:hover {
+    color: #00afe9;
+}
+
+.anhsach img{
+    height: 150px !important;
+}
+.anhsachbanchay img{
+    height: 120px !important;
+}
+
+.namebook{
+    font-weight: bold;
+    font-size: small;
+}
+.author{
+    color: #00afe9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+
+}
+#menulist{
+    border:1px solid rgba(0, 0, 0, 0.2);
+    box-shadow:rgba(0, 0, 0, 0.2) 0 5px 10px;
+
+    border-radius: 5px;
+    z-index: 10;
+    margin-top: -7px;
+    padding-top: 7px;
+    background-color: #ffffff;
+
+    padding-bottom: 5px;
+    float: left;
+}
+#slide{
+
+}
+.giagoc{
+    font-size: smaller;
+}
+.giagiam{
+    color: #fc034f;
+    font-weight: bold;
+}
+h4 a{
+    text-decoration: none;
+    color: black;
+}
+h4 a:hover{
+    color: #00afe9;
+    text-decoration: none;
+}
+div h4{
+    padding-top: 30px;
+}
+
+
+.newsletter {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.newsletter h4 {
+    color: #333;
+
+    margin: 0;
+    text-transform: uppercase;
+}
+.newsletter h4 .fa-angle-down, footer.wrap-footer .newsletter h4 .fa-envelope-o {
+    display: none;
+}
+.newsletter .form-group {
+    margin-bottom: 0;
+}
+.newsletter input[type="email"] {
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.newsletter button[type="submit"] {
+    background: #00afe9 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 28px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.newsletter button[type="submit"]:hover {
+    opacity: 0.8;
+}
+.newsletter button[type="submit"] i.fa {
+    margin-left: 5px;
+}
+
+
+
+#goTop {
+    bottom: 200px;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    position: fixed;
+    right: 155px;
+    width: 44px;
+    z-index: 1000;
+}
+.noidungsach{
+    margin-top: 10px;
+}
+
+.noidungsach .author{
+    padding-top: 30px;
+}
+
+
+#bestseller{
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+hr{
+    border-style: dashed;
+    width: 100%; !important;
+    background-color: #e6e6e6;!important;
+}
+#nhaptimkiem{
+    border-radius: 10px;
+}
+.anhsachbanchay:hover {
+     -webkit-transform:scale(1.2);
+     transform:scale(1.2);
+ }
+.anhsachbanchay {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.anhsach:hover {
+    -webkit-transform:scale(1.13);
+    transform:scale(1.13);
+}
+.anhsach {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.slideshow div{
+    padding-top: 10px;
+    margin-right: -25px;
+}
+
+
+
+.anhsach {
+    position:relative;
+    overflow:hidden;
+}
+.anhsach .textbox {
+    width:180px;
+    height:10px;
+    position:absolute;
+    bottom:0;
+    left:5px;
+    margin-bottom:-160px;
+    border-radius:5px;
+    /*background-color: rgba(0,0,0,0.75);*/
+    /*-webkit-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75);*/
+    /*box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75);*/
+}
+.anhsach:hover .textbox {
+    margin-bottom: 90px;
+    height: 10px;
+    width: 100px;
+}
+.anhsachbanchay:hover .textbox{
+    margin-bottom: 90px;
+    height: 10px;
+    width: 100px;
+}
+.anhsachbanchay .textbox{
+    width:180px;
+    height:10px;
+    position:absolute;
+    bottom:0;
+    left:5px;
+    margin-bottom:-160px;
+    border-radius:5px;
+}
+.anhsachbanchay{
+    position:relative;
+    overflow:hidden;
+}
+.text {
+    padding-bottom: 10px;
+}
+.textbox {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    color: white; !important;
+}
+
+.nut1{
+    /*-webkit-transition: all 0.7s ease;*/
+    /*transition: all 0.7s ease;*/
+    /*background-color: #00afe9 ;*/
+    /*color: white;*/
+    padding-right: 20px;
+    color: white; !important;
+    background-color: #00afe9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px #0189b2;
+    margin-bottom: 11px;
+
+}
+.nut1:hover{
+    /*border-radius:50%;*/
+    /*box-shadow: 0 10px 6px -6px grey;*/
+    /*color: white;*/
+
+    /*-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);*/
+    /*box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);*/
+    background-color: #069dcc;
+    color: white;
+
+}
+.nut1:active{
+    background-color: #069dcc;
+    box-shadow: 0 5px #0189b2;
+    transform: translateY(5px);
+    color: white;
+}
+.nut2{
+    /*-webkit-transition: all 0.7s ease;*/
+    /*transition: all 0.7s ease;*/
+    /*background-color: #FC034F ;*/
+    /*color: white;*/
+    color: white;
+    background-color: #fc034f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px #cc003d;
+}
+.nut2:hover{
+    /*border-radius:50%;*/
+    /*box-shadow: 0 10px 6px -6px grey;*/
+    /*color: white;*/
+
+    /*-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);*/
+    /*box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);*/
+    background-color: #ea0248;
+    color: white;
+
+}
+.nut2:active{
+    background-color: #ea0248;
+    box-shadow: 0 5px #cc003d;
+    transform: translateY(5px);
+    color: white;
+}
+.anhsach:hover{
+    cursor: pointer;
+}
+.anhsachbanchay:hover{
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: #00afe9;!important;
+}
+a:hover{
+    color: #00afe9; !important; !important;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #00afe9; !important;
+}
+
+
+
+

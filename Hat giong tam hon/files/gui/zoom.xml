@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+	
+	<style>
+	<![CDATA[
+	button.zoom_in > box { background: image(files/gui/zoom/btn_zoom_in.png); }
+	button.zoom_out > box { background: image(files/gui/zoom/btn_zoom_out.png); }
+	button.scroll_handle > box { background: image(files/gui/zoom/btn_scroll_handle.png); width: 15; height: 15; }
+	button.scroll_handle > box.over { background: image(files/gui/zoom/btn_scroll_handle1.png); }
+	]]>
+	</style>
+	
+	<!-- To change the shadows setting. Can be anything, but should contain the two settings togglebuttons. -->
+	<box id="zoomframe" style="container" x="25" y="25" mouseenabled="true" alpha_out="0.3" resize="true">
+		<vflow>
+			<box anchors="0,0,pw" height="24">
+				<!-- Zoom out -->
+				<button onclick="megazine.zoomOut()" title="localize(LNG_ZOOM_OUT, Zoom out)" style="common zoom_out"/>
+				<scrollbar name="zoom_slider" anchors="25,5,pw-25,19" background="gradient(linear-horizontal,0x666666,0x4d4d4d)">
+					<button name="$scroll_handle$" width="15" height="15" style="scroll_handle" title="localize(LNG_ZOOM_SLIDE, Slide to control zoom level)"/>
+				</scrollbar>
+				<!-- Zoom in -->
+				<button onclick="megazine.zoomIn()" title="localize(LNG_ZOOM_IN, Zoom in)" style="common zoom_in" anchors="pw-w"/>
+			</box>
+			<!-- Thumbnail of book contents with drag rectangle representing visible area -->
+			<scrollpanecontrol name="control" width="125?pagew" height="pageh*(125?pagew)/(pagew*2)" hideifnodrag="true">
+				<box name="$dragrect$" style="dragrect"><box/></box>
+			</scrollpanecontrol>
+		</vflow>
+	</box>
+</asul>

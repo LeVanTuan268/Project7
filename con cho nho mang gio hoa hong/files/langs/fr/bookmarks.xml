@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<langstring name="LNG_BOOKMARK_TITLE" label="Bookmarks Title">Favoris</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE" label="Delect">Supprimer ce signet</langstring>
+	<langstring name="LNG_BOOKMARK_ADD" label="Add bookmark">Ajouter aux favoris</langstring>
+	<langstring name="LNG_BOOKMARK_OK" label="OK">bien</langstring>
+	<langstring name="LNG_BOOKMARK_CANCEL" label="Cancel">annuler</langstring>
+	<langstring name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page">Page $1</langstring>
+	<langstring name="LNG_BOOKMARK_COLOR" label="Random color">Couleur aléatoire</langstring>
+	<langstring name="LNG_BOOKMARK_ADD_FLOAT" label="Add Button">ajouter</langstring>
+	<langstring name="LNG_BOOKMARK_DELETE_FLOAT" label="Delete Button">effacer</langstring>
+	<langstring name="LNG_BOOKMARK_UPDATE_FLOAT" label="Update Button">mettre à jour</langstring>
+	<langstring name="LNG_BOOKMARK_CLOSE_FLOAT" label="Close Button">proche</langstring>
+	<langstring name="LNG_BOOKMARK_PAGE_FLOAT" label="Page Title">Page</langstring>
+	<langstring name="LNG_BOOKMARK_P_FLOAT" label="Pagination">page.</langstring>
+</lang>

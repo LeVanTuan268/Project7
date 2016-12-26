@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asul SYSTEM "http://www.megazine3.de/asul.dtd">
+<asul>
+
+	<style>
+	<![CDATA[
+	/* Graphics for button states */
+	button.print > box { background: image(files/gui/printpdf/btn_printpdf.png); }
+	button.btn_ok > box { background: image(files/gui/printpdf/btn_ok.png); }
+	button.btn_save > box { background: image(files/gui/printpdf/btn_save.png); }
+	button.close > box { background: image(files/gui/printpdf/btn_close.png); }
+	button.next > box { background: image(files/gui/printpdf/btn_next.png); }
+	button.prev > box { background: image(files/gui/printpdf/btn_prev.png); }
+	scrollbar > button > box { background: image(files/gui/printpdf/btn_scroll_handle.png); width: 15; height: 15; }
+	scrollbar > button > box.over { background: image(files/gui/printpdf/btn_scroll_handle1.png); }
+	togglebutton.element > button {
+		anchors: 10,10,pw-10,ph-10;
+	}
+	togglebutton.element > button.box {
+		anchors: 0,0,pw,ph;
+	}
+	togglebutton.element > button > box.over {
+		background: color(0x330000FF);
+	}
+	togglebutton.element > button > box.down {
+		background: color(0x330000FF);
+	}
+	togglebutton.element > button.selected {
+		background: color(0x7F0000FF);
+	}
+	progressbar > box {
+		width: 200;
+		height: 20;
+		anchors: (pw-w)/2,(ph-h)/2;
+	}
+	progressbar > box > box {
+		background: gradient(linear-vertical,0xCCCCCC,0x999999);
+		width: 190;
+		height: 10;
+		x: 5;
+		y: 5;
+	}
+	progressbar text {
+		align: center;
+		width: 190;
+		height: 16;
+		x: 5;
+		y: 2;
+	}
+	box.pagelink {
+		background: gradient(linear-vertical,0x7f999999,0x7f333333);
+	}
+	]]>
+	</style>
+	
+	<!-- Button for the navigation bar. Must be a button. Toggles visiblility of the save frame. -->
+	<button id="btn_print" title="localize(LNG_PRINTPDF, Save as PDF)" style="common print"/>
+	
+	<!-- Actual frame that gets opened when the save button is clicked -->
+	<window id="printframe" anchors="0,0,pw,ph" mouseenabled="true" style="container">
+		<button name="$btn_close$" title="localize(LNG_PRINTPDF_CLOSE, Close)" style="common close" anchors="pw-w-5,5"/>
+		
+		<text anchors="25,35,pw-25,55" value="localize(LNG_PRINTPDF_INFO, Select the pages you wish to save by clicking on them.)" style="info" background="gradient(linear-vertical,0x999999,0x666666)"/>
+		<!-- Pane with all the buttons representing the pages. -->
+		<scrollpane anchors="25,55,pw-25,ph-95" mousewheel="y" style="container">
+			<box anchors="25,0,pw-45,ph">
+				<box name="$viewport$" resize="true" maxwidth="pw">
+					<!-- This will be filled with the 'page_button' elements (see below) -->
+					<hflow name="elements" maxwidth="pmaxw"/>
+				</box>
+			</box>
+			
+			<!-- Buttons to navigate to pages of page thumbnails -->
+			<button name="btn_previous" style="common prev" anchors="0,ph/2" title="localize(LNG_PRINTPDF_PREV, Previous pages)"/>
+			<button name="btn_next" style="common next" anchors="pw-w-20,ph/2" title="localize(LNG_PRINTPDF_NEXT, Next pages)"/>
+			
+			<!-- Scrollbar -->
+			<scrollbar name="$scroll_y$" orientation="vertical" anchors="pw-15,0,pw,ph" background="gradient(linear-vertical,0x666666,0x4d4d4d)">
+				<button name="$scroll_handle$" width="15" height="15"/>
+			</scrollbar>
+		</scrollpane>
+		
+		
+		<text anchors="25,ph-70,pw-100,ph-50" value="localize(LNG_PRINTPDF_INFO2, Or enter the page numbers manually. Separate numbers using semicolons. Define ranges using 'from-to': e.g. 10-20.)" style="info" background="gradient(linear-vertical,0x999999,0x666666)"/>
+		
+		<!-- Manual input of pages / page ranges -->
+		<box anchors="25,ph-50,pw-100,ph-25" style="input">
+			<text name="txt_pages" restrict="\-;0123456789"/>
+		</box>
+		
+		<!-- Save a complete pdf -->
+		<button name="btn_save" style="common btn_save" anchors="pw-w-50,ph-h-25" title="localize(LNG_PRINTPDF_SAVE_COMPLETE, 'Save complete book (ignores selection)')"/>
+		
+		<!-- Save selection -->
+		<button name="btn_print_selected" style="common btn_ok" anchors="pw-w-25,ph-h-25" title="localize(LNG_PRINTPDF_PRINT, Save selected pages)"/>
+		
+		<!-- Show progress of loading content of pages to be printed -->
+		<progressbar name="progressbar" anchors="0,0,pw,ph" style="container" mouseenabled="true">
+			<box style="container">
+				<box name="$bar$"/>
+				<text name="$text$" style="label"/>
+			</box>
+		</progressbar>
+		
+		<!-- "Too many pages selected" notice box -->
+		<window name="too_many_pages" anchors="0,0,pw,ph" mouseenabled="true" style="container">
+			<box width="280" height="165" style="container" anchors="(pw-w)/2,(ph-h)/2">
+				<text name="txt_too_many_pages" style="info" anchors="25,25,pw-25,ph-45" multiline="true" wordwrap="true" background="gradient(linear-vertical,0x333333,0x111111)"/>
+				<button name="$btn_close$" style="common btn_ok" anchors="(pw-w)/2,ph-h-10"/>
+			</box>
+		</window>
+	</window>
+	
+	<!-- Template for a page element. Must be a toggle button (used to show selection state). -->
+	<togglebutton id="page_button" width="thumbw+20" height="thumbh+20" style="element">
+		<!-- This element (the element with this name) will be made visible if the button represents an even page. -->
+		<box name="if_even" anchors="0,5,pw-5,ph-5" style="pagelink"/>
+		<!-- This element (the element with this name) will be made visible if the button represents an odd page. -->
+		<box name="if_odd" anchors="5,5,pw,ph-5" style="pagelink"/>
+		<!-- Container for actual page thumbnail -->
+		<box name="thumb" anchors="10,10,pw-10,ph-10"/>
+		<!-- Overlay for page number -->
+		<box anchors="10,10,pw-10,ph-10" background="color(0x666666)" blendmode="hardlight">
+			<!-- Adjust the 'size' and 'height' attributes here if your pages are very large / small, making the numbers relatively small / large. -->
+			<text name="number" anchors="0,(ph-h)/2,pw" align="center" color="0x999999" size="40" font="Verdana" bold="true" height="55"/>
+		</box>
+		<!-- Actual button states -->
+		<button name="$btn_normal$"/>
+		<button name="$btn_toggled$" style="selected"/>
+	</togglebutton>
+</asul>
